@@ -1,4 +1,3151 @@
-import pandas as pd
-train_url = ''
-train_data = pd.read_csv(train_url)
-train_data.head()
+Rank,Title, Artists
+1	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+2	Blinding Lights	The Weeknd
+3	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+4	Roses - Imanbek Remix	SAINt JHN, Imanbek
+5	Toosie Slide	Drake
+6	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+7	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+8	Don't Start Now	Dua Lipa
+9	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+10	Dance Monkey	Tones And I
+11	GOOBA	6ix9ine
+12	Blueberry Faygo	Lil Mosey
+13	The Box	Roddy Ricch
+14	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+15	Break My Heart	Dua Lipa
+16	Supalonely	BENEE, Gus Dapperton
+17	Intentions (feat. Quavo)	Justin Bieber, Quavo
+18	In Your Eyes	The Weeknd
+19	Sunday Best	Surfaces
+20	Say So	Doja Cat
+21	Falling	Trevor Daniel
+22	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+23	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+24	Someone You Loved	Lewis Capaldi
+25	Yo Perreo Sola	Bad Bunny
+26	Circles	Post Malone
+27	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+28	Party Girl	StaySolidRocky
+29	Watermelon Sugar	Harry Styles
+30	goosebumps	Travis Scott
+31	Tusa	KAROL G, Nicki Minaj
+32	WHATS POPPIN	Jack Harlow
+33	Boss Bitch	Doja Cat
+34	ROXANNE	Arizona Zervas
+35	SICKO MODE	Travis Scott
+36	Play Date	Melanie Martinez
+37	Be Kind (with Halsey)	Marshmello, Halsey
+38	Life Is Good (feat. Drake)	Future, Drake
+39	HIGHEST IN THE ROOM	Travis Scott
+40	Breaking Me	Topic, A7S
+41	Adore You	Harry Styles
+42	Rojo	J Balvin
+43	Before You Go	Lewis Capaldi
+44	Memories	Maroon 5
+45	After Party	Don Toliver
+46	bad guy	Billie Eilish
+47	SeÃ±orita	Shawn Mendes, Camila Cabello
+48	Daechwita	Agust D
+49	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+50	Favorito	Camilo
+1	Colocao	Nicki Nicole
+2	Favorito	Camilo
+3	PORFA	Feid, Justin Quiles
+4	Yo Perreo Sola	Bad Bunny
+5	C.R.O: Bzrp Music Session, Vol. 29	Bizarrap, C.R.O
+6	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+7	Rojo	J Balvin
+8	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+9	Tattoo	Rauw Alejandro
+10	Inolvidable	Ovy On The Drums, BeÃ©le
+11	Tusa	KAROL G, Nicki Minaj
+12	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+13	Por Primera Vez	Camilo, Evaluna Montaner
+14	Diosa	Myke Towers
+15	La Jeepeta - Remix	Nio Garcia, Anuel AA, Myke Towers, Brray, Juanka
+16	RelaciÃ³n	Sech
+17	Morado	J Balvin
+18	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+19	Blinding Lights	The Weeknd
+20	Tak Tiki Tak	Harry Nach
+21	Dance Monkey	Tones And I
+22	Fantasias	Rauw Alejandro, Farruko
+23	Loco	BeÃ©le
+24	Locura	Cali Y El Dandee, Sebastian Yatra
+25	Roses - Imanbek Remix	SAINt JHN, Imanbek
+26	Don't Start Now	Dua Lipa
+27	La DifÃ­cil	Bad Bunny
+28	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+29	Amarillo	J Balvin
+30	ALMA DINAMITA	WOS
+31	Ignorantes	Bad Bunny, Sech
+32	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+33	High	Maria Becerra
+34	Ya No MÃ¡s	Fer Palacio, DJ Alex, Santiago Saez
+35	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+36	Flasheaste Amor	Agapornis, Hernan y La Champion's Liga, Lauro
+37	Como Llora	Juanfran
+38	Si Me Dices Que SÃ­	Reik, Farruko, Camilo
+39	Tutu	Camilo, Pedro CapÃ³
+40	MuÃ©velo	Nicky Jam, Daddy Yankee
+41	DÃ³nde EstÃ¡s	KHEA
+42	Recuerdo	TINI, Mau y Ricky
+43	Bounce	Cazzu
+44	La Cama - Remix	Lunay, Myke Towers, Ozuna, Chencho Corleone, Rauw Alejandro
+45	BYE ME FUI	Bad Bunny
+46	La Pared 360	Lenny TavÃ¡rez, Justin Quiles
+47	Moon	Maria Becerra, DANI
+48	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+49	ALGO DEL VACÃO	WOS, Manu Oliva
+50	Par-Tusa	El Dipy
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Roses - Imanbek Remix	SAINt JHN, Imanbek
+3	Blinding Lights	The Weeknd
+4	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+5	Toosie Slide	Drake
+6	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+7	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+8	Supalonely	BENEE, Gus Dapperton
+9	Break My Heart	Dua Lipa
+10	Don't Start Now	Dua Lipa
+11	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+12	Intentions (feat. Quavo)	Justin Bieber, Quavo
+13	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+14	Sunday Best	Surfaces
+15	Watermelon Sugar	Harry Styles
+16	Blueberry Faygo	Lil Mosey
+17	In Your Eyes	The Weeknd
+18	Be Kind (with Halsey)	Marshmello, Halsey
+19	Boss Bitch	Doja Cat
+20	Pump It Up	Endor
+21	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+22	Breaking Me	Topic, A7S
+23	GOOBA	6ix9ine
+24	WHATS POPPIN	Jack Harlow
+25	The Box	Roddy Ricch
+26	This City	Sam Fischer
+27	After Party	Don Toliver
+28	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+29	Dance Monkey	Tones And I
+30	Circles	Post Malone
+31	Party Girl	StaySolidRocky
+32	Someone You Loved	Lewis Capaldi
+33	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+34	Rover (feat. DTG)	S1mba, DTG
+35	Adore You	Harry Styles
+36	Before You Go	Lewis Capaldi
+37	Live In Life	The Rubens
+38	Say So	Doja Cat
+39	Ride It	Regard
+40	Righteous	Juice WRLD
+41	You should be sad	Halsey
+42	ROXANNE	Arizona Zervas
+43	Lose Control	MEDUZA, Becky Hill, Goodboys
+44	Falling	Trevor Daniel
+45	Bad Child	Tones And I
+46	Life Is Good (feat. Drake)	Future, Drake
+47	Memories	Maroon 5
+48	Know Your Worth	Khalid, Disclosure
+49	Lose Somebody	Kygo, OneRepublic
+50	Go Crazy	Chris Brown, Young Thug
+1	Roadrunner	Bonez MC
+2	Komm Komm	Capital Bra
+3	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+4	Roses - Imanbek Remix	SAINt JHN, Imanbek
+5	GOOBA	6ix9ine
+6	Fame	Apache 207
+7	Blinding Lights	The Weeknd
+8	Nicht verdient	Capital Bra, Loredana
+9	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+10	Toosie Slide	Drake
+11	Breaking Me	Topic, A7S
+12	Roller	Apache 207
+13	FAVELA	Dardan
+14	Airwaves	Pashanim
+15	Salt	Ava Max
+16	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+17	Emotions	Ufo361
+18	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+19	Supalonely	BENEE, Gus Dapperton
+20	Dance Monkey	Tones And I
+21	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+22	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+23	GEHT NICH GIBS NICH	KC Rebell, Summer Cem
+24	Kings & Queens	Ava Max
+25	Maison	Luciano
+26	90-60-111	Shirin David
+27	Fingertips	Tom Gregory
+28	Don't Start Now	Dua Lipa
+29	Ich wÃ¼rd' lÃ¼gen	KAYEF
+30	Shotz Fired	Bonez MC
+31	Falling	Trevor Daniel
+32	The Passenger (LaLaLa)	LUM!X, MOKABY & D.T.E, Gabry Ponte
+33	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+34	Late Night	Luciano
+35	Some Say - Felix Jaehn Remix	Nea, Felix Jaehn
+36	The Box	Roddy Ricch
+37	Blueberry Faygo	Lil Mosey
+38	Lose Somebody	Kygo, OneRepublic
+39	goosebumps	Travis Scott
+40	HIGHEST IN THE ROOM	Travis Scott
+41	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+42	WHATS POPPIN	Jack Harlow
+43	Close Your Eyes	Felix Jaehn, VIZE, Miss Li
+44	Boss Bitch	Doja Cat
+45	Never Let Me Down	VIZE, Tom Gregory
+46	Like I Love You	Nico Santos, Topic
+47	Ride It	Regard
+48	bad guy	Billie Eilish
+49	Before You Go	Lewis Capaldi
+50	SICKO MODE	Travis Scott
+1	Blinding Lights	The Weeknd
+2	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+3	Roses - Imanbek Remix	SAINt JHN, Imanbek
+4	Kom Wat Dichterbij - Uit Liefde Voor Muziek	Regi, Jake Reese, OT
+5	Toosie Slide	Drake
+6	Breaking Me	Topic, A7S
+7	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+8	GOOBA	6ix9ine
+9	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+10	Dance Monkey	Tones And I
+11	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+12	Supalonely	BENEE, Gus Dapperton
+13	Don't Start Now	Dua Lipa
+14	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+15	Sunday Best	Surfaces
+16	The Box	Roddy Ricch
+17	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+18	Ride It	Regard
+19	Falling	Trevor Daniel
+20	Never Seen The Rain	Tones And I
+21	Before You Go	Lewis Capaldi
+22	In Your Eyes	The Weeknd
+23	Break My Heart	Dua Lipa
+24	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+25	Physical	Dua Lipa
+26	Say So	Doja Cat
+27	Zo Ver Weg - Uit Liefde Voor Muziek	Regi, Jake Reese, OT
+28	Blueberry Faygo	Lil Mosey
+29	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+30	Someone You Loved	Lewis Capaldi
+31	goosebumps	Travis Scott
+32	Lose Control	MEDUZA, Becky Hill, Goodboys
+33	Intentions (feat. Quavo)	Justin Bieber, Quavo
+34	ROXANNE	Arizona Zervas
+35	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+36	Party Girl	StaySolidRocky
+37	Some Say	Nea
+38	SICKO MODE	Travis Scott
+39	Skechers	DripReport
+40	Alone, Pt. II	Alan Walker, Ava Max
+41	everything i wanted	Billie Eilish
+42	bad guy	Billie Eilish
+43	Salt	Ava Max
+44	Tusa	KAROL G, Nicki Minaj
+45	Adore You	Harry Styles
+46	Little Submarine - Live Uit Liefde Voor Muziek	The Starlings
+47	Savage	Megan Thee Stallion
+48	Be Kind (with Halsey)	Marshmello, Halsey
+49	What A Man Gotta Do	Jonas Brothers
+50	HIGHEST IN THE ROOM	Travis Scott
+1	Rojo	J Balvin
+2	Favorito	Camilo
+3	Blinding Lights	The Weeknd
+4	Bajo La Mesa	Morat, Sebastian Yatra
+5	Yo Perreo Sola	Bad Bunny
+6	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+7	Tattoo	Rauw Alejandro
+8	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+9	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+10	PORFA	Feid, Justin Quiles
+11	RelaciÃ³n	Sech
+12	Tusa	KAROL G, Nicki Minaj
+13	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+14	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+15	Locura	Cali Y El Dandee, Sebastian Yatra
+16	Ignorantes	Bad Bunny, Sech
+17	Diosa	Myke Towers
+18	Morado	J Balvin
+19	Jangueo	Alex Rose, Rafa PabÃ¶n
+20	BYE ME FUI	Bad Bunny
+21	Amarillo	J Balvin
+22	Por Primera Vez	Camilo, Evaluna Montaner
+23	Tak Tiki Tak	Harry Nach
+24	Azul	J Balvin
+25	Fantasias	Rauw Alejandro, Farruko
+26	Dance Monkey	Tones And I
+27	Don't Start Now	Dua Lipa
+28	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+29	Si Veo a Tu MamÃ¡	Bad Bunny
+30	Tutu	Camilo, Pedro CapÃ³
+31	La DifÃ­cil	Bad Bunny
+32	LA CANCIÃ“N	J Balvin, Bad Bunny
+33	El Efecto	Rauw Alejandro, Chencho Corleone
+34	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+35	Si Me Dices Que SÃ­	Reik, Farruko, Camilo
+36	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+37	Djadja	Aya Nakamura
+38	La DifÃ­cil	Camilo
+39	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+40	La Mitad	Camilo, Christian Nodal
+41	Vete	Bad Bunny
+42	ADMV	Maluma
+43	Roses - Imanbek Remix	SAINt JHN, Imanbek
+44	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+45	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+46	Detente	Mike BahÃ­a, Danny Ocean
+47	Desconocidos	Mau y Ricky, Manuel Turizo, Camilo
+48	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+49	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+50	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+1	A Gente Fez Amor - Ao Vivo	Gusttavo Lima
+2	Saudade Sua	Gusttavo Lima
+3	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+4	Liberdade ProvisÃ³ria - Ao Vivo	Henrique & Juliano
+5	BRABA	LuÃ­sa Sonza
+6	Tudo no Sigilo	Vytinho NG, MC Bianca
+7	Ã¡gua com aÃ§Ãºcar - ao vivo	Luan Santana
+8	Ranking	Jorge & Mateus
+9	Graveto - Ao Vivo	MarÃ­lia MendonÃ§a
+10	LitrÃ£o - Ao Vivo	Matheus & Kauan
+11	Volta por Baixo - Ao Vivo	Henrique & Juliano
+12	S de Saudade	LuÃ­za & MaurÃ­lio, ZÃ© Neto & Cristiano
+13	Na Raba Toma TapÃ£o	Niack
+14	Te Prometo	Dennis DJ, Mc Don Juan
+15	Don't Start Now	Dua Lipa
+16	Tudo Aconteceu	MC Du Black, Delacruz
+17	Barzinho AleatÃ³rio - Ao Vivo	ZÃ© Neto & Cristiano
+18	Slow Down (feat. Jorja Smith) - Vintage Culture & Slow Motion Remix	Maverick Sabre, Jorja Smith, Vintage Culture, Slow Motion
+19	Mentira - Ao Vivo	Felipe AraÃºjo
+20	Roses - Imanbek Remix	SAINt JHN, Imanbek
+21	Despedida - Ao Vivo	Wesley SafadÃ£o, ZÃ© Neto & Cristiano
+22	Com ou Sem Mim - Ao Vivo	Gustavo Mioto
+23	Cheirosa - Ao Vivo	Jorge & Mateus
+24	Supera - Ao Vivo	MarÃ­lia MendonÃ§a
+25	SENTADÃƒO	Pedro Sampaio, Felipe Original, JS o MÃ£o de Ouro
+26	AÃ­ Eu Bebo - Ao Vivo	Maiara & Maraisa
+27	Bebi Minha Bicicleta (CoraÃ§Ã£o Falido) - Ao Vivo	ZÃ© Neto & Cristiano
+28	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+29	3 Batidas - Ao Vivo	Guilherme & Benuto
+30	Briga Feia - Ao Vivo	Henrique & Juliano
+31	Vira Homem	MarÃ­lia MendonÃ§a
+32	Ãudio - Ao Vivo em BrasÃ­lia	Diego & Victor Hugo
+33	Dance Monkey	Tones And I
+34	Blinding Lights	The Weeknd
+35	BalanÃ§a (feat. Pedro Sampaio e FP do Trem Bala)	WC no Beat, Pedro Sampaio, FP do Trem Bala
+36	menina solta	Giulia Be
+37	RelÃ³gio Parado (Ao Vivo)	Diego & Arnaldo
+38	Vem Me Satisfazer	MC Ingryd, DJ Henrique da VK
+39	Segunda TaÃ§a	JoÃ£o Bosco & Vinicius, Matheus
+40	Quem Traiu Levou - Ao Vivo	Gusttavo Lima
+41	boa memÃ³ria - ao vivo	Luan Santana
+42	Amor de Fim de Noite	Orochi, Papatinho
+43	Viva Voz - Ao Vivo	Lauana Prado
+44	Break My Heart	Dua Lipa
+45	TijolÃ£o - Ao Vivo	Jorge & Mateus
+46	Toosie Slide	Drake
+47	NÃ£o Vai Embora	Dilsinho, LuÃ­sa Sonza, Malibu
+48	Tudo Ok	Thiaguinho MT, Mila, JS o MÃ£o de Ouro
+49	Pipa Voada (feat. Emicida)	Rashid, Lukinhas, Emicida
+50	EntÃ£o Toma - Ao Vivo	Matheus & Kauan
+1	GOOBA	6ix9ine
+2	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+3	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+4	100 zhivota	Galena
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	Blinding Lights	The Weeknd
+7	Ð’Ð¸Ð²Ð°Ð»Ð´Ð¸	Boro Purvi, Tita
+8	Toosie Slide	Drake
+9	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+10	The Box	Roddy Ricch
+11	Daechwita	Agust D
+12	HIGHEST IN THE ROOM	Travis Scott
+13	SICKO MODE	Travis Scott
+14	Life Is Good (feat. Drake)	Future, Drake
+15	goosebumps	Travis Scott
+16	Blueberry Faygo	Lil Mosey
+17	Don't Start Now	Dua Lipa
+18	Break My Heart	Dua Lipa
+19	Breaking Me	Topic, A7S
+20	In Your Eyes	The Weeknd
+21	WHATS POPPIN	Jack Harlow
+22	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+23	Falling	Trevor Daniel
+24	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+25	After Party	Don Toliver
+26	Dance Monkey	Tones And I
+27	Watermelon Sugar	Harry Styles
+28	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+29	Boss Bitch	Doja Cat
+30	Physical	Dua Lipa
+31	OUT WEST (feat. Young Thug)	JACKBOYS, Travis Scott, Young Thug
+32	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+33	Savage	Megan Thee Stallion
+34	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+35	Say So	Doja Cat
+36	bad guy	Billie Eilish
+37	ROXANNE	Arizona Zervas
+38	Party Girl	StaySolidRocky
+39	Supalonely	BENEE, Gus Dapperton
+40	What do you think?	Agust D
+41	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+42	Burn It	Agust D, MAX
+43	KISLOROD	V:RGO
+44	Piyan	Preslava
+45	everything i wanted	Billie Eilish
+46	SeÃ±orita	Shawn Mendes, Camila Cabello
+47	Adore You	Harry Styles
+48	Don Omar	EMIL TRF
+49	Strange	Agust D, RM
+50	Lamborghini	Galena, Fiki
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+3	Roses - Imanbek Remix	SAINt JHN, Imanbek
+4	Blinding Lights	The Weeknd
+5	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+6	Toosie Slide	Drake
+7	Blueberry Faygo	Lil Mosey
+8	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+9	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+10	The Box	Roddy Ricch
+11	Dance Monkey	Tones And I
+12	GOOBA	6ix9ine
+13	Don't Start Now	Dua Lipa
+14	Intentions (feat. Quavo)	Justin Bieber, Quavo
+15	Party Girl	StaySolidRocky
+16	Sunday Best	Surfaces
+17	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+18	WHATS POPPIN	Jack Harlow
+19	Be Kind (with Halsey)	Marshmello, Halsey
+20	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+21	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+22	Circles	Post Malone
+23	After Party	Don Toliver
+24	Break My Heart	Dua Lipa
+25	In Your Eyes	The Weeknd
+26	Life Is Good (feat. Drake)	Future, Drake
+27	Supalonely	BENEE, Gus Dapperton
+28	Watermelon Sugar	Harry Styles
+29	ROXANNE	Arizona Zervas
+30	Someone You Loved	Lewis Capaldi
+31	Righteous	Juice WRLD
+32	Falling	Trevor Daniel
+33	Walk Em Down (feat. Roddy Ricch)	NLE Choppa, Roddy Ricch
+34	COOLER THAN A BITCH (feat. Roddy Ricch)	Gunna, Roddy Ricch
+35	Chicago Freestyle (feat. Giveon)	Drake, Giveon
+36	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+37	DOLLAZ ON MY HEAD (feat. Young Thug)	Gunna, Young Thug
+38	Lose Somebody	Kygo, OneRepublic
+39	Breaking Me	Topic, A7S
+40	Before You Go	Lewis Capaldi
+41	Say So	Doja Cat
+42	Adore You	Harry Styles
+43	Sunflower - Spider-Man: Into the Spider-Verse	Post Malone, Swae Lee
+44	goosebumps	Travis Scott
+45	Boss Bitch	Doja Cat
+46	HIGHEST IN THE ROOM	Travis Scott
+47	Play Date	Melanie Martinez
+48	Memories	Maroon 5
+49	WUNNA	Gunna
+50	SICKO MODE	Travis Scott
+1	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+2	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+3	Yo Perreo Sola	Bad Bunny
+4	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+5	PORFA	Feid, Justin Quiles
+6	La Jeepeta - Remix	Nio Garcia, Anuel AA, Myke Towers, Brray, Juanka
+7	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+8	BYE ME FUI	Bad Bunny
+9	La DifÃ­cil	Bad Bunny
+10	BAD CON NICKY	Bad Bunny, Nicky Jam
+11	Rojo	J Balvin
+12	Ignorantes	Bad Bunny, Sech
+13	Favorito	Camilo
+14	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+15	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+16	Diosa	Myke Towers
+17	RelaciÃ³n	Sech
+18	Tattoo	Rauw Alejandro
+19	La Santa	Bad Bunny, Daddy Yankee
+20	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+21	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+22	Jangueo	Alex Rose, Rafa PabÃ¶n
+23	Blinding Lights	The Weeknd
+24	PA' ROMPERLA	Bad Bunny, Don Omar
+25	Tusa	KAROL G, Nicki Minaj
+26	A Tu Merced	Bad Bunny
+27	Tak Tiki Tak	Harry Nach
+28	La Cama - Remix	Lunay, Myke Towers, Ozuna, Chencho Corleone, Rauw Alejandro
+29	Si Veo a Tu MamÃ¡	Bad Bunny
+30	ConfÃ­a	Sech, Daddy Yankee
+31	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+32	Vete	Bad Bunny
+33	Locura	Cali Y El Dandee, Sebastian Yatra
+34	Dance Monkey	Tones And I
+35	Morado	J Balvin
+36	Keii	Anuel AA
+37	Girl	Myke Towers
+38	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+39	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+40	BENDICIONES	Bad Bunny
+41	Goteo	Paloma Mami
+42	Sola & VacÃ­a	Casper Magico, Anuel AA
+43	Fantasias	Rauw Alejandro, Farruko
+44	Amarillo	J Balvin
+45	Don't Start Now	Dua Lipa
+46	Fantasias - Remix	Rauw Alejandro, Anuel AA, Natti Natasha, Farruko, Lunay
+47	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+48	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+49	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+50	Definitivamente	Daddy Yankee, Sech
+1	Rojo	J Balvin
+2	PORFA	Feid, Justin Quiles
+3	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+4	Amarillo	J Balvin
+5	Yo Perreo Sola	Bad Bunny
+6	Favorito	Camilo
+7	Tattoo	Rauw Alejandro
+8	Morado	J Balvin
+9	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+10	Azul	J Balvin
+11	Bajo La Mesa	Morat, Sebastian Yatra
+12	Tusa	KAROL G, Nicki Minaj
+13	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+14	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+15	RelaciÃ³n	Sech
+16	Blinding Lights	The Weeknd
+17	Ignorantes	Bad Bunny, Sech
+18	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+19	Los Besos	Greeicy
+20	Diosa	Myke Towers
+21	Blanco	J Balvin
+22	Si Veo a Tu MamÃ¡	Bad Bunny
+23	Fantasias	Rauw Alejandro, Farruko
+24	Dance Monkey	Tones And I
+25	Negro	J Balvin
+26	BYE ME FUI	Bad Bunny
+27	La DifÃ­cil	Bad Bunny
+28	Locura	Cali Y El Dandee, Sebastian Yatra
+29	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+30	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+31	LA CANCIÃ“N	J Balvin, Bad Bunny
+32	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+33	Don't Start Now	Dua Lipa
+34	PA' ROMPERLA	Bad Bunny, Don Omar
+35	BORRAXXA	Feid, Manuel Turizo
+36	ADMV	Maluma
+37	Gris	J Balvin
+38	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+39	Por Primera Vez	Camilo, Evaluna Montaner
+40	Vete	Bad Bunny
+41	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+42	Loco - Remix	Farruko, BeÃ©le, Natti Natasha, Manuel Turizo
+43	Tutu	Camilo, Pedro CapÃ³
+44	Quizas	Rich Music LTD, Sech, Dalex, Justin Quiles, Lenny TavÃ¡rez, Feid, Wisin, Zion
+45	RITMO (Bad Boys For Life)	Black Eyed Peas, J Balvin
+46	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+47	Callaita	Bad Bunny, Tainy
+48	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+49	ConfÃ­a	Sech, Daddy Yankee
+50	BAD CON NICKY	Bad Bunny, Nicky Jam
+1	Rojo	J Balvin
+2	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+3	Yo Perreo Sola	Bad Bunny
+4	Favorito	Camilo
+5	Tattoo	Rauw Alejandro
+6	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+7	Djadja	Aya Nakamura
+8	Blinding Lights	The Weeknd
+9	Tusa	KAROL G, Nicki Minaj
+10	Amarillo	J Balvin
+11	Fantasias	Rauw Alejandro, Farruko
+12	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+13	Diosa	Myke Towers
+14	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+15	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+16	Ignorantes	Bad Bunny, Sech
+17	Morado	J Balvin
+18	PORFA	Feid, Justin Quiles
+19	RelaciÃ³n	Sech
+20	Dance Monkey	Tones And I
+21	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+22	Si Veo a Tu MamÃ¡	Bad Bunny
+23	Jangueo	Alex Rose, Rafa PabÃ¶n
+24	La DifÃ­cil	Bad Bunny
+25	Don't Start Now	Dua Lipa
+26	Vete	Bad Bunny
+27	Por Primera Vez	Camilo, Evaluna Montaner
+28	Toosie Slide	Drake
+29	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+30	Azul	J Balvin
+31	BYE ME FUI	Bad Bunny
+32	El Efecto	Rauw Alejandro, Chencho Corleone
+33	LA CANCIÃ“N	J Balvin, Bad Bunny
+34	Bajo La Mesa	Morat, Sebastian Yatra
+35	Negro	J Balvin
+36	Blanco	J Balvin
+37	Si Te Vas	Sech, Ozuna
+38	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+39	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+40	La Santa	Bad Bunny, Daddy Yankee
+41	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+42	Mejor	Dalex, Sech
+43	SICKO MODE	Travis Scott
+44	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+45	Tutu	Camilo, Pedro CapÃ³
+46	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+47	goosebumps	Travis Scott
+48	A Tu Merced	Bad Bunny
+49	The Box	Roddy Ricch
+50	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+1	Blinding Lights	The Weeknd
+2	Roses - Imanbek Remix	SAINt JHN, Imanbek
+3	GOOBA	6ix9ine
+4	Dance Monkey	Tones And I
+5	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+6	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+7	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+8	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+9	AÅ¾ na mÄ›sÃ­c	Viktor Sheen, Nik Tendo, Calin, Hasan
+10	Jsme jenom fakani	CA$HANOVA BULHAR
+11	Hadi	CA$HANOVA BULHAR
+12	Oblivion	Viktor Sheen, Nik Tendo
+13	Someone You Loved	Lewis Capaldi
+14	Don't Start Now	Dua Lipa
+15	NenÃ­ Limit	Nik Tendo
+16	Ride It	Regard
+17	Toosie Slide	Drake
+18	The Box	Roddy Ricch
+19	Do pÄ›ti	Ektor
+20	Boss Bitch	Doja Cat
+21	Sex Disco Revoluce	CA$HANOVA BULHAR
+22	Breaking Me	Topic, A7S
+23	Blueberry Faygo	Lil Mosey
+24	HrajeÅ¡ Si Na Co	Nik Tendo, Viktor Sheen
+25	Falling	Trevor Daniel
+26	Supalonely	BENEE, Gus Dapperton
+27	SeÃ±orita	Shawn Mendes, Camila Cabello
+28	LALALA	Grey, Psycho Rhyme
+29	Svaz ceskych bohemu	Wohnout
+30	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+31	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+32	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+33	Sbohem	Nik Tendo
+34	Before You Go	Lewis Capaldi
+35	Sunday Best	Surfaces
+36	Kings & Queens	Ava Max
+37	Totti	CA$HANOVA BULHAR
+38	Circles	Post Malone
+39	goosebumps	Travis Scott
+40	ROXANNE	Arizona Zervas
+41	Zrovna jÃ­ to najelo	CA$HANOVA BULHAR, Labello
+42	Break My Heart	Dua Lipa
+43	HIGHEST IN THE ROOM	Travis Scott
+44	Hranice	Ektor
+45	bad guy	Billie Eilish
+46	RnB King	CA$HANOVA BULHAR
+47	SICKO MODE	Travis Scott
+48	Be Kind (with Halsey)	Marshmello, Halsey
+49	Kytky z pumpy	Renne Dang
+50	Watermelon Sugar	Harry Styles
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Tilbage (feat. Hennedub)	KESI, Hennedub
+3	KIKI (feat. Gilli)	LOLO, Gilli
+4	Blinding Lights	The Weeknd
+5	Avatar	NODE, Larry 44
+6	SPORT	TopGunn, Branco
+7	GOOBA	6ix9ine
+8	Sol Over KÃ¸benhavn (feat. KESI)	Citybois, KESI
+9	Roses - Imanbek Remix	SAINt JHN, Imanbek
+10	TÃ¦ttere End Vi Tror	P3, Tessa, Christopher, Lukas Graham, Jada, Benjamin Hav, Clara, Don Stefano, Mads Langer
+11	Glo PÃ¥ Mig	Tessa
+12	Toosie Slide	Drake
+13	Klovne	RH
+14	Rover (feat. DTG)	S1mba, DTG
+15	LA DANZA	Branco, Gilli
+16	In Your Eyes	The Weeknd
+17	Nudes	Jada
+18	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+19	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+20	WHIP WHOP	I$WAAL
+21	Min Bror (Josef Og Elias X ICEKIID)	Josef Og Elias, ICEKIID
+22	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+23	Gonzo	Suspekt
+24	NO SKRUB$	TopGunn, Medina
+25	Blitz, Baby	Jung
+26	Blueberry Faygo	Lil Mosey
+27	SÃ¥'n der	Tessa
+28	Ben	Tessa
+29	Gelato	Benny Jamz
+30	Intentions (feat. Quavo)	Justin Bieber, Quavo
+31	Smid TÃ¸jet	Jimilian
+32	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+33	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+34	Burnout	Calby
+35	Dance Monkey	Tones And I
+36	Don't Start Now	Dua Lipa
+37	Hangover	Ude Af Kontrol
+38	Supalonely	BENEE, Gus Dapperton
+39	PUB G (feat. Branco & Larry 44)	LOLO, Branco, Larry 44
+40	Someone You Loved	Lewis Capaldi
+41	Before You Go	Lewis Capaldi
+42	Party Girl	StaySolidRocky
+43	Breaking Me	Topic, A7S
+44	Salt	Ava Max
+45	Ghost	Christopher
+46	Say So	Doja Cat
+47	Gutterne	Specktors, Nonsens
+48	Break My Heart	Dua Lipa
+49	Slip Away	Phlake, Mercedes the Virus
+50	KÃ¦rlighed GÃ¸r Blind	Citybois
+1	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+2	Yo Perreo Sola	Bad Bunny
+3	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+4	BYE ME FUI	Bad Bunny
+5	Tattoo	Rauw Alejandro
+6	Ignorantes	Bad Bunny, Sech
+7	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+8	RelaciÃ³n	Sech
+9	La DifÃ­cil	Bad Bunny
+10	Diosa	Myke Towers
+11	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+12	Rojo	J Balvin
+13	La Santa	Bad Bunny, Daddy Yankee
+14	Favorito	Camilo
+15	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+16	PAM	Justin Quiles, Daddy Yankee, El Alfa
+17	Vete	Bad Bunny
+18	Si Veo a Tu MamÃ¡	Bad Bunny
+19	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+20	BENDICIONES	Bad Bunny
+21	A Correr los Lakers	El Alfa
+22	PA' ROMPERLA	Bad Bunny, Don Omar
+23	Fantasias	Rauw Alejandro, Farruko
+24	Un Dia Si	El Alfa, Farruko, Myke Towers
+25	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+26	BAD CON NICKY	Bad Bunny, Nicky Jam
+27	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+28	Tusa	KAROL G, Nicki Minaj
+29	RONCA FREESTYLE	Bad Bunny
+30	Besalo	El Alfa, Rauw Alejandro
+31	Loco - Remix	Farruko, BeÃ©le, Natti Natasha, Manuel Turizo
+32	Medusa	Jhay Cortez, Anuel AA, J Balvin
+33	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+34	PORFA	Feid, Justin Quiles
+35	LA CANCIÃ“N	J Balvin, Bad Bunny
+36	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+37	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+38	ConfÃ­a	Sech, Daddy Yankee
+39	A Tu Merced	Bad Bunny
+40	Girl	Myke Towers
+41	25-Aug	Bad Bunny
+42	Singapur	El Alfa, Chael Produciendo
+43	Si Te Vas	Sech, Ozuna
+44	Follow	KAROL G, Anuel AA
+45	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+46	Keii	Anuel AA
+47	Blinding Lights	The Weeknd
+48	Toosie Slide	Drake
+49	SI ELLA SALE	Bad Bunny
+50	Hablamos Nunca	El Alfa, Bethoven Villaman, El Fother, Kiko el Crazy
+1	Yo Perreo Sola	Bad Bunny
+2	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+3	Rojo	J Balvin
+4	Favorito	Camilo
+5	PORFA	Feid, Justin Quiles
+6	Blinding Lights	The Weeknd
+7	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+8	RelaciÃ³n	Sech
+9	Tattoo	Rauw Alejandro
+10	Morado	J Balvin
+11	Amarillo	J Balvin
+12	Bajo La Mesa	Morat, Sebastian Yatra
+13	Tusa	KAROL G, Nicki Minaj
+14	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+15	Ignorantes	Bad Bunny, Sech
+16	Jangueo	Alex Rose, Rafa PabÃ¶n
+17	La DifÃ­cil	Bad Bunny
+18	Si Veo a Tu MamÃ¡	Bad Bunny
+19	Diosa	Myke Towers
+20	BYE ME FUI	Bad Bunny
+21	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+22	Azul	J Balvin
+23	Dance Monkey	Tones And I
+24	Don't Start Now	Dua Lipa
+25	Fantasias	Rauw Alejandro, Farruko
+26	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+27	PA' ROMPERLA	Bad Bunny, Don Omar
+28	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+29	Locura	Cali Y El Dandee, Sebastian Yatra
+30	El Efecto	Rauw Alejandro, Chencho Corleone
+31	Por Primera Vez	Camilo, Evaluna Montaner
+32	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+33	LA CANCIÃ“N	J Balvin, Bad Bunny
+34	Los Besos	Greeicy
+35	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+36	La Santa	Bad Bunny, Daddy Yankee
+37	Vete	Bad Bunny
+38	Roses - Imanbek Remix	SAINt JHN, Imanbek
+39	Detente	Mike BahÃ­a, Danny Ocean
+40	A Tu Merced	Bad Bunny
+41	Si Me Dices Que SÃ­	Reik, Farruko, Camilo
+42	Tutu	Camilo, Pedro CapÃ³
+43	Blanco	J Balvin
+44	Callaita	Bad Bunny, Tainy
+45	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+46	Negro	J Balvin
+47	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+48	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+49	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+50	ADMV	Maluma
+1	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+2	Rojo	J Balvin
+3	Yo Perreo Sola	Bad Bunny
+4	Favorito	Camilo
+5	Tattoo	Rauw Alejandro
+6	Blinding Lights	The Weeknd
+7	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+8	BYE ME FUI	Bad Bunny
+9	La DifÃ­cil	Bad Bunny
+10	Si Veo a Tu MamÃ¡	Bad Bunny
+11	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+12	Ignorantes	Bad Bunny, Sech
+13	Fantasias	Rauw Alejandro, Farruko
+14	La Santa	Bad Bunny, Daddy Yankee
+15	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+16	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+17	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+18	Vete	Bad Bunny
+19	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+20	Diosa	Myke Towers
+21	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+22	LA CANCIÃ“N	J Balvin, Bad Bunny
+23	Tusa	KAROL G, Nicki Minaj
+24	Morado	J Balvin
+25	Don't Start Now	Dua Lipa
+26	PORFA	Feid, Justin Quiles
+27	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+28	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+29	RelaciÃ³n	Sech
+30	Amarillo	J Balvin
+31	Dance Monkey	Tones And I
+32	Jangueo	Alex Rose, Rafa PabÃ¶n
+33	PA' ROMPERLA	Bad Bunny, Don Omar
+34	Callaita	Bad Bunny, Tainy
+35	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+36	BAD CON NICKY	Bad Bunny, Nicky Jam
+37	A Tu Merced	Bad Bunny
+38	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+39	Bajo La Mesa	Morat, Sebastian Yatra
+40	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+41	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+42	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+43	El Efecto	Rauw Alejandro, Chencho Corleone
+44	Por Primera Vez	Camilo, Evaluna Montaner
+45	QuÃ© MaldiciÃ³n	Banda MS de Sergio LizÃ¡rraga, Snoop Dogg
+46	Azul	J Balvin
+47	Tutu	Camilo, Pedro CapÃ³
+48	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+49	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+50	Quizas	Rich Music LTD, Sech, Dalex, Justin Quiles, Lenny TavÃ¡rez, Feid, Wisin, Zion
+1	Croissantid	Nublu
+2	Blinding Lights	The Weeknd
+3	Roses - Imanbek Remix	SAINt JHN, Imanbek
+4	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+5	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+6	Young Boy	NOÃ‹P
+7	GOOBA	6ix9ine
+8	AluspÃ¼kse	5MIINUST, Nublu
+9	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+10	fÃ¼r Oksana	Nublu, gameboy tetris
+11	PaaristÃµuked	5MIINUST, Villemdrillem
+12	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+13	Toosie Slide	Drake
+14	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+15	In Your Eyes	The Weeknd
+16	Breaking Me	Topic, A7S
+17	Blueberry Faygo	Lil Mosey
+18	Supalonely	BENEE, Gus Dapperton
+19	Don't Start Now	Dua Lipa
+20	Watermelon Sugar	Harry Styles
+21	The Box	Roddy Ricch
+22	Break My Heart	Dua Lipa
+23	Boss Bitch	Doja Cat
+24	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+25	Falling	Trevor Daniel
+26	Be Kind (with Halsey)	Marshmello, Halsey
+27	Daechwita	Agust D
+28	SOS (Siimi Remix)	Pluuto, Nublu, Reket, Siimi
+29	Ooh Aah	Cdeep
+30	Say So	Doja Cat
+31	Sunday Best	Surfaces
+32	Kuule	Karl-Erik Taukar
+33	WHATS POPPIN	Jack Harlow
+34	Circles	Post Malone
+35	Play Date	Melanie Martinez
+36	Ã¶Ã¶laps!	Nublu
+37	Dance Monkey	Tones And I
+38	Party Girl	StaySolidRocky
+39	Tsirkus	5MIINUST, Nublu, PLUUTO
+40	ROXANNE	Arizona Zervas
+41	Adore You	Harry Styles
+42	I Got Love	MiyaGi & Endspiel, Rem Digga
+43	Life Is Good (feat. Drake)	Future, Drake
+44	everything i wanted	Billie Eilish
+45	Intentions (feat. Quavo)	Justin Bieber, Quavo
+46	goosebumps	Travis Scott
+47	Ma Kuulsin Seda LÃ¤bi ViinamarjavÃ¤Ã¤di	Reket
+48	Ride It	Regard
+49	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+50	HIGHEST IN THE ROOM	Travis Scott
+1	TÃ¤ssÃ¤kÃ¶ tÃ¤Ã¤ oli? (feat. Leavings-Orkesteri)	Arttu Wiskari, Leavings-Orkesteri
+2	Blinding Lights	The Weeknd
+3	Penelope (feat. Clever)	william, Clever
+4	GOOBA	6ix9ine
+5	Christian Rapper	Devo
+6	Believe Me - Remastered	Devo, Janni
+7	YhtenÃ¤ sunnuntaina	Erin
+8	Liian vÃ¤hÃ¤n, liian myÃ¶hÃ¤Ã¤n	Evelina
+9	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+10	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+11	100%	Keko Salata, BESS, Sexmane
+12	Roses - Imanbek Remix	SAINt JHN, Imanbek
+13	Tivolit	BEHM
+14	100	Kube
+15	Boss Bitch	Doja Cat
+16	EpÃ¤rÃ¶imÃ¤ttÃ¤ hetkeekÃ¤Ã¤n	Elastinen, Jenni Vartiainen
+17	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+18	Breaking Me	Topic, A7S
+19	Kings & Queens	Ava Max
+20	Hei rakas	BEHM
+21	Thank You [Not So Bad]	VIZE, Felix Jaehn
+22	Ikuinen vappu	JVG
+23	Break My Heart	Dua Lipa
+24	LINKO	Lord Est, MEGA-Ertsi
+25	Blueberry Faygo	Lil Mosey
+26	Tuhansien LÃ¤rvien Maa	Petri NygÃ¥rd
+27	Supalonely	BENEE, Gus Dapperton
+28	Parempi yksin - Recorded At Spotify Studios, Stockholm	Pyhimys
+29	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+30	In Your Eyes	The Weeknd
+31	ValonsÃ¤teet	Vesta
+32	Komm Komm	Capital Bra
+33	Toosie Slide	Drake
+34	HengitÃ¤	Tuure Boelius
+35	Salt	Ava Max
+36	TeipillÃ¤ tai rakkaudella	ABREU
+37	Lose Somebody	Kygo, OneRepublic
+38	Dance Monkey	Tones And I
+39	Play Date	Melanie Martinez
+40	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+41	LA Money	ALMA
+42	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+43	Herkku	SeksikÃ¤s-Suklaa, Dosdela
+44	KYSYMYS (feat. Pyhimys)	Cledos, Pyhimys
+45	Cicciolina	Erika Vikman
+46	Naamat	HesaÃ„ijÃ¤
+47	Be Kind (with Halsey)	Marshmello, Halsey
+48	Physical	Dua Lipa
+49	WHATS POPPIN	Jack Harlow
+50	Haituvat	Jukka Poika, Janna
+1	Angela	Hatik
+2	JAUNÃ‰	Booba, Zed
+3	Blinding Lights	The Weeknd
+4	Roses - Imanbek Remix	SAINt JHN, Imanbek
+5	MeleÄŸim	Soolking, Dadju
+6	Lettre Ã  une femme	Ninho
+7	Tusa	KAROL G, Nicki Minaj
+8	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+9	6.3	Naps, Ninho
+10	Sousou	Jul
+11	Bro Bro	Zola
+12	Blanche	Maes, Booba
+13	Toosie Slide	Drake
+14	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+15	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+16	Criminel (feat. Niska)	Bramsito, Niska
+17	Dance Monkey	Tones And I
+18	Skechers	DripReport
+19	Distant	Maes, Ninho
+20	Ride It	Regard
+21	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+22	Zipette	Ninho
+23	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+24	Ne reviens pas	Gradur, Heuss L'enfoirÃ©
+25	GOOBA	6ix9ine
+26	Dybala	Maes, Jul
+27	1Ã¨re fois	Imen Es, Alonzo
+28	The Box	Roddy Ricch
+29	La vie qu'on mÃ¨ne	Ninho
+30	93% [Tijuana]	GLK, Landy, DA Uzi, Hornet La Frappe
+31	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+32	MD (feat. Niska)	4Keus, Niska
+33	Salt	Ava Max
+34	Crois-moi (feat. Ninho)	DA Uzi, Ninho
+35	Falling	Trevor Daniel
+36	In Your Eyes	The Weeknd
+37	Breaking Me	Topic, A7S
+38	Supalonely	BENEE, Gus Dapperton
+39	Moulaga	Heuss L'enfoirÃ©, Jul
+40	Some Say	Nea
+41	Infinity - Dubdogz & Bhaskar Edit	Dubdogz, Bhaskar
+42	Train de vie (feat. PLK)	Leto, PLK
+43	Prison pour mineurs	Hatik
+44	Pirate	Ninho, HÃ¶s Copperfield
+45	Physical	Dua Lipa
+46	Fait d'or	Jul
+47	So Maness	Soso Maness
+48	Sunday Best	Surfaces
+49	Anissa	Wejdene
+50	Djomb	Bosh
+1	Roadrunner	Bonez MC
+2	Komm Komm	Capital Bra
+3	Fame	Apache 207
+4	Airwaves	Pashanim
+5	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+6	Emotions	Ufo361
+7	Blinding Lights	The Weeknd
+8	GOOBA	6ix9ine
+9	FAVELA	Dardan
+10	Nicht verdient	Capital Bra, Loredana
+11	Roses - Imanbek Remix	SAINt JHN, Imanbek
+12	Toosie Slide	Drake
+13	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+14	GEHT NICH GIBS NICH	KC Rebell, Summer Cem
+15	Roller	Apache 207
+16	Late Night	Luciano
+17	Breaking Me	Topic, A7S
+18	Ich wÃ¼rd' lÃ¼gen	KAYEF
+19	Maison	Luciano
+20	WEISSER RAUCH	FOURTY
+21	TrÃ¤nen aus Kajal	CÃ‰LINE
+22	Never Let Me Down	VIZE, Tom Gregory
+23	90-60-111	Shirin David
+24	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+25	Some Say - Felix Jaehn Remix	Nea, Felix Jaehn
+26	Kings & Queens	Ava Max
+27	Dance Monkey	Tones And I
+28	WIEDER MAL	FOURTY, Monet192
+29	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+30	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+31	Te Amo Mi Amor	Sarah Lombardi
+32	Salt	Ava Max
+33	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+34	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+35	Anders	Fero47
+36	BaeBae	Samra
+37	Supalonely	BENEE, Gus Dapperton
+38	Like I Love You	Nico Santos, Topic
+39	Trendsetter	Nimo, Rina
+40	Modela	Ardian Bujupi
+41	H <3 T E L	Dardan, Monet192
+42	Namen	Kontra K
+43	Conan x Xenia	Haftbefehl, Shirin David
+44	Sehe schwarz	Ra'is, XATAR
+45	Rollercoaster	badmÃ³mzjay
+46	200 km/h	Apache 207
+47	The Passenger (LaLaLa)	LUM!X, MOKABY & D.T.E, Gabry Ponte
+48	RÃ¼ckspiegel	Sinan-G
+49	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+50	What's Luv	Shindy
+1	Millionaire	Snik
+2	Why	Snik
+3	TopBoy	Snik, Capo Plaza
+4	Cubano	Snik
+5	Oh No	Snik
+6	Online	Snik
+7	PTSD	Snik
+8	Highway	Snik
+9	Sinefa	Snik
+10	Rockstar	Snik
+11	Colpo Grosso	Snik, GuÃ¨ Pequeno, Noizy, Capo Plaza
+12	Drip	Snik, Mad Clip
+13	Medusa	Snik
+14	Kilo	Snik
+15	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+16	Cruel Summer	DJ Stephan, Mad Clip, iLLEOo
+17	GOOBA	6ix9ine
+18	Roses - Imanbek Remix	SAINt JHN, Imanbek
+19	Woh - Remix	Fy, Light, MC Bin Laden, Mad Clip, Mente Fuerte
+20	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+21	Senorita	Snik, Tamta
+22	Blinding Lights	The Weeknd
+23	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+24	Kotera	Mad Clip
+25	IG	Slogan, MG
+26	BIG MAN	Snik
+27	Toosie Slide	Drake
+28	Who U	MG, iLLEOo
+29	Eros	DJ Stephan, Ypo, Sophia
+30	HIGHEST IN THE ROOM	Travis Scott
+31	The Box	Roddy Ricch
+32	Slang	Light, Billy Sio, Atc Nico
+33	SICKO MODE	Travis Scott
+34	Blueberry Faygo	Lil Mosey
+35	Presidente	Mad Clip
+36	Life Is Good (feat. Drake)	Future, Drake
+37	goosebumps	Travis Scott
+38	Magic	Light
+39	Caliente	Mente Fuerte, Hawk, Baghdad
+40	WHATS POPPIN	Jack Harlow
+41	GANGSTA	Snik, A.M. SNiPER
+42	Stars	TOQUEL, Light
+43	Don't Start Now	Dua Lipa
+44	Falling	Trevor Daniel
+45	In Your Eyes	The Weeknd
+46	Cyan	Saske
+47	Break My Heart	Dua Lipa
+48	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+49	Monos Mou	Snik
+50	Party Girl	StaySolidRocky
+1	Rojo	J Balvin
+2	Yo Perreo Sola	Bad Bunny
+3	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+4	Favorito	Camilo
+5	Tattoo	Rauw Alejandro
+6	Ignorantes	Bad Bunny, Sech
+7	Blinding Lights	The Weeknd
+8	Si Veo a Tu MamÃ¡	Bad Bunny
+9	Fantasias	Rauw Alejandro, Farruko
+10	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+11	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+12	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+13	Tusa	KAROL G, Nicki Minaj
+14	Jangueo	Alex Rose, Rafa PabÃ¶n
+15	La DifÃ­cil	Bad Bunny
+16	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+17	BYE ME FUI	Bad Bunny
+18	Vete	Bad Bunny
+19	LA CANCIÃ“N	J Balvin, Bad Bunny
+20	Diosa	Myke Towers
+21	Morado	J Balvin
+22	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+23	La Santa	Bad Bunny, Daddy Yankee
+24	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+25	PORFA	Feid, Justin Quiles
+26	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+27	QuÃ© MaldiciÃ³n	Banda MS de Sergio LizÃ¡rraga, Snoop Dogg
+28	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+29	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+30	Amarillo	J Balvin
+31	Don't Start Now	Dua Lipa
+32	Dance Monkey	Tones And I
+33	Callaita	Bad Bunny, Tainy
+34	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+35	RelaciÃ³n	Sech
+36	Azul	J Balvin
+37	PA' ROMPERLA	Bad Bunny, Don Omar
+38	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+39	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+40	Bajo La Mesa	Morat, Sebastian Yatra
+41	Por Primera Vez	Camilo, Evaluna Montaner
+42	Se Me OlvidÃ³	Christian Nodal
+43	Tutu	Camilo, Pedro CapÃ³
+44	BAD CON NICKY	Bad Bunny, Nicky Jam
+45	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+46	Si Te Vas	Sech, Ozuna
+47	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+48	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+49	A Tu Merced	Bad Bunny
+50	El Efecto	Rauw Alejandro, Chencho Corleone
+1	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+2	Yo Perreo Sola	Bad Bunny
+3	Rojo	J Balvin
+4	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+5	Ignorantes	Bad Bunny, Sech
+6	BYE ME FUI	Bad Bunny
+7	Si Veo a Tu MamÃ¡	Bad Bunny
+8	Favorito	Camilo
+9	Blinding Lights	The Weeknd
+10	La Santa	Bad Bunny, Daddy Yankee
+11	La DifÃ­cil	Bad Bunny
+12	Tattoo	Rauw Alejandro
+13	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+14	Vete	Bad Bunny
+15	Diosa	Myke Towers
+16	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+17	LA CANCIÃ“N	J Balvin, Bad Bunny
+18	Tusa	KAROL G, Nicki Minaj
+19	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+20	A Tu Merced	Bad Bunny
+21	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+22	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+23	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+24	BAD CON NICKY	Bad Bunny, Nicky Jam
+25	Morado	J Balvin
+26	Fantasias	Rauw Alejandro, Farruko
+27	PA' ROMPERLA	Bad Bunny, Don Omar
+28	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+29	RelaciÃ³n	Sech
+30	Don't Start Now	Dua Lipa
+31	Amarillo	J Balvin
+32	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+33	PORFA	Feid, Justin Quiles
+34	Callaita	Bad Bunny, Tainy
+35	Dance Monkey	Tones And I
+36	Jangueo	Alex Rose, Rafa PabÃ¶n
+37	BENDICIONES	Bad Bunny
+38	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+39	Bajo La Mesa	Morat, Sebastian Yatra
+40	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+41	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+42	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+43	Azul	J Balvin
+44	Toosie Slide	Drake
+45	QuÃ© MaldiciÃ³n	Banda MS de Sergio LizÃ¡rraga, Snoop Dogg
+46	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+47	Si Te Vas	Sech, Ozuna
+48	ConfÃ­a	Sech, Daddy Yankee
+49	Infeliz	Arcangel, Bad Bunny
+50	Pero Ya No	Bad Bunny
+1	Flossin'	Big Loso
+2	Y Ahora (feat. Alex Rose, Nengo Flow, Randy Nota Loka & Dalex)	DNA, Alex Rose, Nengo Flow, Randy Nota Loka, Dalex
+3	X Celos	DamiÃ¡n V
+4	Guaya Pared (feat. J-King y Maximan)	DNA, J-King, Maximan
+5	Loveless	YNW Jordan, KolÃ©, Young Fay
+6	Static Interruptions	Floating in Space - Project
+7	Soak up the Drip	PBE PLUTO
+8	Lento y Sensual	Jt el Utility
+9	Booty	Windy Guai
+10	Piano Sonata No. 8 in C Minor, Op. 13, "PathÃ©tique": II. Adagio cantabile	Shunji Itani
+11	Tanha Nazar	Sirvan Khosravi
+12	Emotional	MariKuroso, Olivier Decrouille
+13	Yesteday	Thee JAE
+14	GoGo Shred (feat. Ernie C, Johnny Hiland, Jordan Ziff, Johnny Blade & Oskar Cartaya)	Mike Mostert & The GoGo Tuner Family, Ernie C, Johnny Blade, Johnny Hiland, Jordan Ziff, Oskar Cartaya
+15	Escape LA	Friday Santana
+16	Rainfall	Prince Bishop F
+17	This Side	Phantom Caine
+18	Your Occlusion Unbound	From Under Concrete Kings
+19	Luna	Dennis Fernando, Leonardo La Croix
+20	Destroyer	From Under Concrete Kings
+21	Sweet Night	V
+22	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+23	Advienne que pourra	Keyzs-Sean Sparsfa
+24	Ex	Buunkin
+25	Quimica	Bogart Bonales
+26	Snakecrusher	From Under Concrete Kings
+27	Anywhere	Torito
+28	The Feeling	ED LIIT
+29	Runaway / Higher	Phantom Caine
+30	Party Friends	Kiian
+31	Heart Attack	FAO>dino
+32	P.Y.T	TG, Young Invent
+33	Rockstar	K Beezy
+34	Call on Me	James Worthy, Sonna
+35	The Kites	Luca Natale
+36	Dying Inside	Zoee8
+37	Super Mario Bros (Main Theme)	Luca Natale
+38	Presiento	Los Necesarios
+39	Your Time	DeAnna Stealth
+40	éŠ€æ²³ä¿®ç†å“¡	Dear Jane
+41	Press Play	JSnake, Nelis Joustra, Ray Bryan
+42	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+43	Se acabÃ³	Molina Molina
+44	Tik Tik Tok	Marli Space
+45	All Night	Mukaybin Mukayze
+46	æƒ³è¦‹ä½ æƒ³è¦‹ä½ æƒ³è¦‹ä½ (é›»è¦–åŠ‡"æƒ³è¦‹ä½ "ç‰‡å°¾æ›²)	831
+47	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+48	Be Kind (with Halsey)	Marshmello, Halsey
+49	å‘¼å¸æœ‰å®³	Karen Mok
+50	Piano	Nova
+1	Roses - Imanbek Remix	SAINt JHN, Imanbek
+2	Blinding Lights	The Weeknd
+3	GOOBA	6ix9ine
+4	Breaking Me	Topic, A7S
+5	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+6	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+7	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+8	Dance Monkey	Tones And I
+9	Don't Start Now	Dua Lipa
+10	Toosie Slide	Drake
+11	The Box	Roddy Ricch
+12	Blueberry Faygo	Lil Mosey
+13	Break My Heart	Dua Lipa
+14	Falling	Trevor Daniel
+15	Olyan Å	Bagossy Brothers Company
+16	Ride It	Regard
+17	Boss Bitch	Doja Cat
+18	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+19	goosebumps	Travis Scott
+20	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+21	bad guy	Billie Eilish
+22	Tavasz	Follow The Flow
+23	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+24	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+25	HIGHEST IN THE ROOM	Travis Scott
+26	SICKO MODE	Travis Scott
+27	WHATS POPPIN	Jack Harlow
+28	ROXANNE	Arizona Zervas
+29	Lose Control	MEDUZA, Becky Hill, Goodboys
+30	Supalonely	BENEE, Gus Dapperton
+31	Physical	Dua Lipa
+32	SeÃ±orita	Shawn Mendes, Camila Cabello
+33	Circles	Post Malone
+34	MostantÃ³l	RÃ¡cz GergÃµ, Orsovai Reni
+35	Someone You Loved	Lewis Capaldi
+36	Memories	Maroon 5
+37	Life Is Good (feat. Drake)	Future, Drake
+38	Kings & Queens	Ava Max
+39	Party Girl	StaySolidRocky
+40	Watermelon Sugar	Harry Styles
+41	Be Kind (with Halsey)	Marshmello, Halsey
+42	Lej	DzsÃºdlÃ³, Lil Frakk
+43	Salt	Ava Max
+44	Play Date	Melanie Martinez
+45	In Your Eyes	The Weeknd
+46	Sunday Best	Surfaces
+47	FekÃ¼dj ide	ByeAlex Ã©s a Slepp
+48	Intentions (feat. Quavo)	Justin Bieber, Quavo
+49	Say So	Doja Cat
+50	Lose Somebody	Kygo, OneRepublic
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Blinding Lights	The Weeknd
+3	Deyja Fyrir Stelpurnar MÃ­nar	ClubDub, Ra:tio
+4	Esjan	BRÃET
+5	ÃžaÃ° bera sig allir vel	Helgi BjÃ¶rnsson
+6	Think About Things	DaÃ°i Freyr
+7	In Your Eyes	The Weeknd
+8	Ã kvÃ¶ld er gigg	IngÃ³ VeÃ°urguÃ°
+9	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+10	GOOBA	6ix9ine
+11	Roses - Imanbek Remix	SAINt JHN, Imanbek
+12	HeyrÃ°u Mig	BRÃET
+13	Toosie Slide	Drake
+14	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+15	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+16	Haltu Kjafti	Birgir HÃ¡kon, M Can, Tommy
+17	PÃ­la (feat. Lil Binni)	Joey Christ, Lil Binni
+18	Ã“ska mÃ©r	JÃ³iPÃ©, KrÃ³li
+19	Enginn eins og Ã¾Ãº	AuÃ°ur
+20	Breaking Me	Topic, A7S
+21	Boss Bitch	Doja Cat
+22	Supalonely	BENEE, Gus Dapperton
+23	Blueberry Faygo	Lil Mosey
+24	Dance Monkey	Tones And I
+25	SumargleÃ°in (feat. Gummi TÃ³ta & IngÃ³ VeÃ°urguÃ°)	Doctor Victor, IngÃ³ VeÃ°urguÃ°, Gummi TÃ³ta
+26	Einn Tveir	Huginn, FriÃ°rik DÃ³r
+27	Don't Start Now	Dua Lipa
+28	Malbik	EmmsjÃ© Gauti, KrÃ³li
+29	Intentions (feat. Quavo)	Justin Bieber, Quavo
+30	Ã‰g Er Svo Flottur	SÃ©ra BjÃ¶ssi
+31	After Party	Don Toliver
+32	Break My Heart	Dua Lipa
+33	The Box	Roddy Ricch
+34	On	JÃ³iPÃ©, KrÃ³li
+35	Say So	Doja Cat
+36	bad guy	Billie Eilish
+37	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+38	Life Is Good (feat. Drake)	Future, Drake
+39	WHATS POPPIN	Jack Harlow
+40	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+41	goosebumps	Travis Scott
+42	Watermelon Sugar	Harry Styles
+43	SÃ­Ã°an hittumst viÃ° aftur	Helgi BjÃ¶rnsson
+44	HIGHEST IN THE ROOM	Travis Scott
+45	Shallow	Lady Gaga, Bradley Cooper
+46	Someone You Loved	Lewis Capaldi
+47	RÃ³meÃ³ og JÃºlÃ­a	Bubbi Morthens
+48	Sunday Best	Surfaces
+49	OfboÃ°slega frÃ¦gur	StuÃ°menn
+50	Afgan	Bubbi Morthens
+1	Shayad	Pritam, Arijit Singh
+2	Play Date	Melanie Martinez
+3	Genda Phool (feat. Payal Dev)	Badshah, Payal Dev
+4	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+5	Malang (Title Track) [From "Malang - Unleash The Madness"]	Ved Sharma
+6	Roses - Imanbek Remix	SAINt JHN, Imanbek
+7	Ghungroo (From "War")	Arijit Singh, Shilpa Rao
+8	Blinding Lights	The Weeknd
+9	Tujhe Kitna Chahne Lage (From "Kabir Singh")	Arijit Singh, Mithoon
+10	Falling	Trevor Daniel
+11	Daechwita	Agust D
+12	Illegal Weapon 2.0	Jasmine Sandlas, Garry Sandhu
+13	Haan Main Galat	Pritam, Arijit Singh, Shashwat Singh
+14	Intentions (feat. Quavo)	Justin Bieber, Quavo
+15	Makhna	Tanishk Bagchi, Yasser Desai, Asees Kaur
+16	Garmi (From "Street Dancer 3D") (feat. Varun Dhawan)	Badshah, Neha Kakkar, Varun Dhawan
+17	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+18	Tu Hi Yaar Mera (From "Pati Patni Aur Woh")	Rochak, Arijit Singh, Neha Kakkar, Rochak Kohli
+19	Humraah (From "Malang - Unleash The Madness")	Sachet Tandon, The Fusion Project
+20	Toosie Slide	Drake
+21	Skechers	DripReport
+22	Memories	Maroon 5
+23	SeÃ±orita	Shawn Mendes, Camila Cabello
+24	Dance Monkey	Tones And I
+25	Kaise Hua (From "Kabir Singh")	Vishal Mishra
+26	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+27	Pal Pal Dil Ke Paas- Title Track	Arijit Singh, Parampara Thakur
+28	Mere Liye Tum Kaafi Ho (From "Shubh Mangal Zyada Saavdhan")	Ayushmann Khurrana, Tanishk-Vayu
+29	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+30	Mehrama	Pritam, Darshan Raval, Antara Mitra
+31	Liggi	Ritviz
+32	Duniyaa (From "Luka Chuppi")	Akhil, Dhvani Bhanushali
+33	The Box	Roddy Ricch
+34	Don't Start Now	Dua Lipa
+35	Tere Naal	Tulsi Kumar, Darshan Raval
+36	Bekhayali (From "Kabir Singh")	Sachet Tandon, Sachet-Parampara
+37	Tera Ban Jaunga (From "Kabir Singh")	Akhil Sachdeva, Tulsi Kumar
+38	Ve Maahi	Arijit Singh, Asees Kaur
+39	Yaad Piya Ki Aane Lagi	Neha Kakkar, Tanishk Bagchi, Lalit Sen
+40	Mere Sohneya (From "Kabir Singh")	Sachet Tandon, Parampara Thakur, Sachet-Parampara
+41	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+42	Kuch Bhi Ho Jaye	B Praak
+43	Lagdi Lahore Di (From "Street Dancer 3D")	Guru Randhawa, Tulsi Kumar
+44	Agar Tum Saath Ho (From "Tamasha")	Alka Yagnik, Arijit Singh
+45	Be Kind (with Halsey)	Marshmello, Halsey
+46	Tum Hi Aana (From "Marjaavaan")	Payal Dev, Jubin Nautiyal
+47	Yummy	Justin Bieber
+48	ROXANNE	Arizona Zervas
+49	Muqabla (From "Street Dancer 3D")	Yash Narvekar, Parampara Thakur, Tanishk Bagchi
+50	Chal Ghar Chalen (From "Malang - Unleash The Madness") [Mithoon feat. Arijit Singh]	Mithoon, Arijit Singh
+1	LATHI (ê¦­ê¦›ê¦¶)	Weird Genius, Sara Fajira
+2	Play Date	Melanie Martinez
+3	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+4	Surrender	Natalie Taylor
+5	Someone You Loved	Lewis Capaldi
+6	Intentions (feat. Quavo)	Justin Bieber, Quavo
+7	One Only	Pamungkas
+8	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+9	Bentuk Cinta	Eclat Story
+10	Takbiran - Version 1	Ustad Jefri Al Buchori, H. Aswan Faisal
+11	Supalonely	BENEE, Gus Dapperton
+12	Make You Mine	PUBLIC
+13	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+14	Pura Pura Lupa	Mahen
+15	Falling	Trevor Daniel
+16	Sunday Best	Surfaces
+17	Secukupnya	Hindia
+18	Takbiran - Version 2	Ustad Jefri Al Buchori, H. Aswan Faisal
+19	Alone, Pt. II	Alan Walker, Ava Max
+20	Memories	Maroon 5
+21	Kenangan Manis	Pamungkas
+22	I Like You So Much, You'll Know It	Honey Jemlan
+23	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+24	Terlalu Cinta	Rossa
+25	Waktu Yang Salah	Fiersa Besari, Thantri
+26	Lebih Dari Egoku	Mawar De Jongh
+27	Daechwita	Agust D
+28	ROXANNE	Arizona Zervas
+29	Perlahan	GUYON WATON
+30	Pelukku Untuk Pelikmu - OST Imperfect: Karier, Cinta, & Timbangan	Fiersa Besari
+31	Don't Start Now	Dua Lipa
+32	Toosie Slide	Drake
+33	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+34	Sedang Sayang Sayangnya	Mawar De Jongh
+35	Bad Liar	Anna Hamilton
+36	Yummy	Justin Bieber
+37	Like That (feat. Gucci Mane)	Doja Cat, Gucci Mane
+38	Rayu	Marion Jola, Laleilmanino
+39	Bad Liar	Imagine Dragons
+40	Blueberry Faygo	Lil Mosey
+41	Can't You See Me?	TOMORROW X TOGETHER
+42	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+43	Nyaman	Andmesh
+44	Halu	Feby Putri
+45	Sekali Ini Saja	Glenn Fredly
+46	Can We Kiss Forever?	Kina, Adriana Proenza
+47	I Love You but I'm Letting Go	Pamungkas
+48	bitterlove	Ardhito Pramono
+49	Punch	NCT 127
+50	Blinding Lights	The Weeknd
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+3	Blinding Lights	The Weeknd
+4	Roses - Imanbek Remix	SAINt JHN, Imanbek
+5	Think About Things	DaÃ°i Freyr
+6	Toosie Slide	Drake
+7	Rover (feat. DTG)	S1mba, DTG
+8	Blueberry Faygo	Lil Mosey
+9	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+10	Break My Heart	Dua Lipa
+11	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+12	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+13	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+14	Lonely	Joel Corry
+15	Watermelon Sugar	Harry Styles
+16	Don't Start Now	Dua Lipa
+17	Rain	Aitch, AJ Tracey, Tay Keith
+18	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+19	Supalonely	BENEE, Gus Dapperton
+20	GOOBA	6ix9ine
+21	Dance Monkey	Tones And I
+22	Boss Bitch	Doja Cat
+23	Someone You Loved	Lewis Capaldi
+24	Before You Go	Lewis Capaldi
+25	The Box	Roddy Ricch
+26	Breaking Me	Topic, A7S
+27	Flowers (feat. Jaykae)	Nathan Dawe, Jaykae
+28	Houdini (feat. Swarmz & Tion Wayne)	KSI, Tion Wayne, Swarmz
+29	Party Girl	StaySolidRocky
+30	Adore You	Harry Styles
+31	Physical	Dua Lipa
+32	Say So	Doja Cat
+33	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+34	Dinner Guest (feat. MoStack)	AJ Tracey, MoStack
+35	Intentions (feat. Quavo)	Justin Bieber, Quavo
+36	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+37	After Party	Don Toliver
+38	Circles	Post Malone
+39	Pour the Milk	Robbie Doherty, Keees.
+40	Falling	Harry Styles
+41	Break Up Song	Little Mix
+42	Tequila - Jax Jones & Martin Solveig Present Europa	Jax Jones, Martin Solveig, RAYE, Europa
+43	WHATS POPPIN	Jack Harlow
+44	Outnumbered	Dermot Kennedy
+45	No Judgement	Niall Horan
+46	Boyfriend	Mabel
+47	Life Is Good (feat. Drake)	Future, Drake
+48	Cap (feat. Offset)	KSI, Offset
+49	goosebumps	Travis Scott
+50	Killa Killa (feat. Aiyana Lee)	KSI, Aiyana-Lee
+1	Blinding Lights	The Weeknd
+2	Toosie Slide	Drake
+3	Dance Monkey	Tones And I
+4	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	×¡×˜×¤×Ÿ ×œ×’×¨	Dudu Faruk
+7	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+8	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+9	Don't Start Now	Dua Lipa
+10	××ª ×—×¡×¨×” ×œ×™	Eden Hason
+11	×ž×¡×¢	Eliad
+12	××œ×•×£ ×”×¢×•×œ×	Hanan Ben Ari
+13	×× ×ª×¨×¦×™	Hanan Ben Ari
+14	The Box	Roddy Ricch
+15	×—×¦×™ ×‘×©×‘×™×œ×™	Itay Levi
+16	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+17	× ×—×›×” ×œ×š	Nathan Goshen, Ishay Ribo
+18	Break My Heart	Dua Lipa
+19	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+20	Blueberry Faygo	Lil Mosey
+21	SeÃ±orita	Shawn Mendes, Camila Cabello
+22	×œ×©×•×‘ ×”×‘×™×ª×”	Ishay Ribo
+23	Life Is Good (feat. Drake)	Future, Drake
+24	Falling	Trevor Daniel
+25	GOOBA	6ix9ine
+26	In Your Eyes	The Weeknd
+27	goosebumps	Travis Scott
+28	SICKO MODE	Travis Scott
+29	bad guy	Billie Eilish
+30	××™×Ÿ ×™×•×ª×¨ ×ž×•×¢×“×•× ×™×	Eden Hason
+31	Someone You Loved	Lewis Capaldi
+32	×©×’×¨×” ×ž×¤×•××¨×ª	Omer Adam
+33	×—×œ×§ ×ž×”×–×ž×Ÿ	Idan Amedi
+34	×ž×™×©×”×• ××™×ª×™ ×›××Ÿ	Benaia Barabi
+35	HIGHEST IN THE ROOM	Travis Scott
+36	Ve'Eem Tavo'ee Elay (And If You Will Come To Me)	Idan Raichel
+37	××’×¨×•×£	Eden Ben Zaken
+38	ROXANNE	Arizona Zervas
+39	××™×ª×š	Eden Hason
+40	Sunday Best	Surfaces
+41	×”×œ×‘ ×©×œ×™	Ishay Ribo
+42	×¢×‘×¨×• ×—×•×“×©×™×™×	Agam Buhbut, Gal Adam
+43	×ž×ž×” ××ª ×ž×¤×—×“×ª	Eyal Golan, Benaia Barabi
+44	×ž×ª×’×¢×’×¢×ª	Nathan Goshen
+45	×× ××ª×” ×’×‘×¨	Noa Kirel
+46	Intentions (feat. Quavo)	Justin Bieber, Quavo
+47	Circles	Post Malone
+48	×¢×“ ×ž×—×¨	Eviatar Banai
+49	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+50	×©×ž×©	Hanan Ben Ari
+1	Good Times	Ghali
+2	Mediterranea	Irama
+3	ELEGANTE (feat. Sfera Ebbasta)	DrefGold, Sfera Ebbasta
+4	Spigoli	Carl Brave, Mara Sattei, tha Supreme
+5	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+6	Fiori di Chernobyl	Mr.Rain
+7	Roses - Imanbek Remix	SAINt JHN, Imanbek
+8	Auto Blu	Shiva, Eiffel 65
+9	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+10	Il bacio di Klimt	Emanuele Aloia
+11	GOOBA	6ix9ine
+12	TesTa TrA Le NuVoLE, pT. 2	Alfa, Yanomi
+13	Nena (feat. Geolier & Andry The Hitmaker)	Boro Boro, Geolier, Andry The Hitmaker
+14	OPPS (feat. Capo Plaza)	DrefGold, Capo Plaza
+15	Problemi Con Tutti (Giuda)	Fedez
+16	Tusa	KAROL G, Nicki Minaj
+17	Blinding Lights	The Weeknd
+18	Chega	Gaia
+19	Boogieman (feat. Salmo)	Ghali, Salmo
+20	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+21	Le Feste Di Pablo (con Fedez)	CARA, Fedez
+22	Per sentirmi vivo	Fasma, GG
+23	ENJOY (feat. Tedua)	DrefGold, Tedua
+24	Moonlight Popolare (feat. Massimo Pericolo)	Mahmood, Massimo Pericolo
+25	Una volta ancora (feat. Ana Mena)	Fred De Palma, Ana Mena
+26	Dilemme (with tha Supreme & Mara Sattei)	Lous and The Yakuza, tha Supreme, Mara Sattei
+27	Rapide	Mahmood
+28	blun7 a swishland	tha Supreme
+29	PUSSY (feat. Lazza & Salmo)	Dark Polo Gang, Tony Effe, Lazza, Salmo
+30	Toosie Slide	Drake
+31	AMIRI BOYS (feat. Capo Plaza)	Dark Polo Gang, Tony Effe, Capo Plaza
+32	SNITCH E IMPICCI (feat. FSK SATELLITE)	DrefGold, FSK SATELLITE
+33	Bando	ANNA
+34	Missili	Frah Quintale, Giorgio Poi
+35	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+36	Boss Bitch	Doja Cat
+37	goosebumps	Travis Scott
+38	Chiasso	Random
+39	Ringo Starr	Pinguini Tattici Nucleari
+40	BANKROLL (feat. LuchÃ¨)	DrefGold, Luche
+41	SICKO MODE	Travis Scott
+42	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+43	16 Marzo (feat. Gow Tribe)	Achille Lauro, Gow Tribe
+44	Musica (E Il Resto Scompare)	Elettra Lamborghini
+45	Ti volevo dedicare (feat. J-AX & Boomdabash)	Rocco Hunt, J-AX, Boomdabash
+46	ZERO+ZERO (feat. Lazza)	DrefGold, Lazza
+47	Dance Monkey	Tones And I
+48	Sono un bravo ragazzo un po' fuori di testa	Random
+49	El Efecto	Rauw Alejandro, Chencho Corleone
+50	NEON - Le Ali (feat. Elisa)	Marracash, Elisa
+1	å¤œã«é§†ã‘ã‚‹	YOASOBI
+2	Pretender	Official HIGE DANdism
+3	kousui	Eito
+4	I Love...	Official HIGE DANdism
+5	Hakujitsu	King Gnu
+6	Shukumei	Official HIGE DANdism
+7	115ä¸‡ã‚­ãƒ­ã®ãƒ•ã‚£ãƒ«ãƒ 	Official HIGE DANdism
+8	Gurenge	LiSA
+9	Yesterday	Official HIGE DANdism
+10	ãƒŽãƒ¼ãƒ€ã‚¦ãƒˆ	Official HIGE DANdism
+11	Machigaisagashi	Masaki Suda
+12	Marigold	Aimyon
+13	ãŸã å›ã«æ™´ã‚Œ	Yorushika
+14	snow jam	RinéŸ³
+15	Parabola	Official HIGE DANdism
+16	Sayonara Elegy	Masaki Suda
+17	åƒ•ã®ã“ã¨	Mrs. GREEN APPLE
+18	Harunohi	Aimyon
+19	é«˜å¶ºã®èŠ±å­ã•ã‚“	back number
+20	Walking with you	Novelbright
+21	ã‚¤ãƒ³ãƒ•ã‚§ãƒ«ãƒŽ	Mrs. GREEN APPLE
+22	Stand By You	Official HIGE DANdism
+23	ç‚¹æã®å”„	Mrs. GREEN APPLE, Sonoko Inoue
+24	é’ã¨å¤	Mrs. GREEN APPLE
+25	Anataga Iru Kotode	Uru
+26	è£¸ã®å¿ƒ	Aimyon
+27	å›ã¯ãƒ­ãƒƒã‚¯ã‚’è´ã‹ãªã„	Aimyon
+28	Hikoutei	King Gnu
+29	æœªå®Œæˆ	Leo Ieiri
+30	bad guy	Billie Eilish
+31	KAIBUTSUSAN (feat. Aimyon)	Ken Hirai, Aimyon
+32	Doron	King Gnu
+33	ãƒ­ãƒžãƒ³ãƒã‚·ã‚ºãƒ 	Mrs. GREEN APPLE
+34	No Regret	wacci
+35	Teenager Forever	King Gnu
+36	HANABI	Mr.Children
+37	Let the Night	Aimyon
+38	å¥(ã‹ãªã§)	Sukima Switch
+39	ãƒãƒƒãƒ”ãƒ¼ã‚¨ãƒ³ãƒ‰	back number
+40	Time	Hikaru Utada
+41	Turning Up	ARASHI
+42	å°ã•ãªæ‹ã®ã†ãŸ	MONGOL800
+43	366æ—¥	HY
+44	ãƒ¯ã‚¿ãƒªãƒ‰ãƒª	[Alexandros]
+45	Wherever you are	ONE OK ROCK
+46	Vintage	Official HIGE DANdism
+47	Umbrella	King Gnu
+48	æ‰“ä¸ŠèŠ±ç«	DAOKO, Kenshi Yonezu
+49	Closer - Tokyo Remix	The Chainsmokers, Mackenyu Arata
+50	æ„›ã‚’ã“ã‚ã¦èŠ±æŸã‚’	Superfly
+1	Roses - Imanbek Remix	SAINt JHN, Imanbek
+2	Blinding Lights	The Weeknd
+3	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+4	GOOBA	6ix9ine
+5	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+6	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+7	Toosie Slide	Drake
+8	The Box	Roddy Ricch
+9	Blueberry Faygo	Lil Mosey
+10	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+11	WHATS POPPIN	Jack Harlow
+12	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+13	Sunday Best	Surfaces
+14	Don't Start Now	Dua Lipa
+15	Watermelon Sugar	Harry Styles
+16	Falling	Trevor Daniel
+17	Boss Bitch	Doja Cat
+18	Supalonely	BENEE, Gus Dapperton
+19	Circles	Post Malone
+20	After Party	Don Toliver
+21	HIGHEST IN THE ROOM	Travis Scott
+22	Life Is Good (feat. Drake)	Future, Drake
+23	Break My Heart	Dua Lipa
+24	In Your Eyes	The Weeknd
+25	Breaking Me	Topic, A7S
+26	Say So	Doja Cat
+27	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+28	Party Girl	StaySolidRocky
+29	Dance Monkey	Tones And I
+30	ROXANNE	Arizona Zervas
+31	Adore You	Harry Styles
+32	Daechwita	Agust D
+33	goosebumps	Travis Scott
+34	Play Date	Melanie Martinez
+35	Be Kind (with Halsey)	Marshmello, Halsey
+36	Righteous	Juice WRLD
+37	everything i wanted	Billie Eilish
+38	Intentions (feat. Quavo)	Justin Bieber, Quavo
+39	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+40	SICKO MODE	Travis Scott
+41	bad guy	Billie Eilish
+42	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+43	I Got Love	MiyaGi & Endspiel, Rem Digga
+44	Skechers	DripReport
+45	Know Your Worth	Khalid, Disclosure
+46	Ride It	Regard
+47	Salt	Ava Max
+48	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+49	Lose Somebody	Kygo, OneRepublic
+50	Daisies	Katy Perry
+1	Blinding Lights	The Weeknd
+2	Roses - Imanbek Remix	SAINt JHN, Imanbek
+3	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+4	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+5	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+6	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+7	In Your Eyes	The Weeknd
+8	Toosie Slide	Drake
+9	Break My Heart	Dua Lipa
+10	Don't Start Now	Dua Lipa
+11	Watermelon Sugar	Harry Styles
+12	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+13	Supalonely	BENEE, Gus Dapperton
+14	Breaking Me	Topic, A7S
+15	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+16	GOOBA	6ix9ine
+17	The Box	Roddy Ricch
+18	Blueberry Faygo	Lil Mosey
+19	Sunday Best	Surfaces
+20	Boss Bitch	Doja Cat
+21	WHATS POPPIN	Jack Harlow
+22	On Fire	THE ROOP
+23	August	Intelligency
+24	Falling	Trevor Daniel
+25	Dance Monkey	Tones And I
+26	Be Kind (with Halsey)	Marshmello, Halsey
+27	Circles	Post Malone
+28	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+29	Life Is Good (feat. Drake)	Future, Drake
+30	Say So	Doja Cat
+31	YES	OG Version, Proflame
+32	Play Date	Melanie Martinez
+33	Salt	Ava Max
+34	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+35	Adore You	Harry Styles
+36	Intentions (feat. Quavo)	Justin Bieber, Quavo
+37	Party Girl	StaySolidRocky
+38	Know Your Worth	Khalid, Disclosure
+39	ROXANNE	Arizona Zervas
+40	Lose Somebody	Kygo, OneRepublic
+41	Daechwita	Agust D
+42	After Party	Don Toliver
+43	bad guy	Billie Eilish
+44	HIGHEST IN THE ROOM	Travis Scott
+45	Physical	Dua Lipa
+46	everything i wanted	Billie Eilish
+47	Taip Jau Gavosi	Sisters On Wire
+48	Daisies	Katy Perry
+49	Lose Control	MEDUZA, Becky Hill, Goodboys
+50	Ð¡ÑƒÐ´Ð½Ð¾ (Ð‘Ð¾Ñ€Ð¸Ñ Ð Ð¸Ð¶Ð¸Ð¹)	Molchat Doma
+1	No Time To Die	Billie Eilish
+2	Blinding Lights	The Weeknd
+3	The Box	Roddy Ricch
+4	Dance Monkey	Tones And I
+5	Falling	Trevor Daniel
+6	Don't Start Now	Dua Lipa
+7	Life Is Good (feat. Drake)	Future, Drake
+8	Intentions (feat. Quavo)	Justin Bieber, Quavo
+9	Mios mit Bars	Luciano
+10	everything i wanted	Billie Eilish
+11	Yummy	Justin Bieber
+12	ROXANNE	Arizona Zervas
+13	Roses - Imanbek Remix	SAINt JHN, Imanbek
+14	Give No Fxk	Migos, Travis Scott, Young Thug
+15	Verkackt	Gzuz, Bonez MC
+16	Ride It	Regard
+17	Forever (feat. Post Malone & Clever)	Justin Bieber, Post Malone, Clever
+18	Memories	Maroon 5
+19	Roller	Apache 207
+20	RITMO (Bad Boys For Life)	Black Eyed Peas, J Balvin
+21	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+22	bad guy	Billie Eilish
+23	Before You Go	Lewis Capaldi
+24	Ne reviens pas	Gradur, Heuss L'enfoirÃ©
+25	Lose Control	MEDUZA, Becky Hill, Goodboys
+26	Donuts	Gzuz
+27	Circles	Post Malone
+28	Tusa	KAROL G, Nicki Minaj
+29	What If I Told You That I Love You	Ali Gatie
+30	You should be sad	Halsey
+31	Gazozial	Gzuz
+32	Someone You Loved	Lewis Capaldi
+33	SeÃ±orita	Shawn Mendes, Camila Cabello
+34	Adore You	Harry Styles
+35	Weiss	Samra
+36	What A Man Gotta Do	Jonas Brothers
+37	Suicidal	YNW Melly
+38	My Oh My (feat. DaBaby)	Camila Cabello, DaBaby
+39	Loco	Gzuz
+40	Say So	Doja Cat
+41	Ausgezahlt	Gzuz, RAF Camora
+42	Was hat es gebracht	Gzuz
+43	AMEX BLACK	Joker Bra
+44	Physical	Dua Lipa
+45	Trampoline (with ZAYN)	SHAED, ZAYN
+46	hot girl bummer	blackbear
+47	BaianÃ¡	Bakermat
+48	Know Your Worth	Khalid, Disclosure
+49	KopfnÃ¼sse	Gzuz
+50	Nie erwartet	Gzuz
+1	Suasana Di Hari Raya	Anuar & Ellina
+2	Seloka Hari Raya	Uji Rashid, Hail Amir
+3	Suasana Hari Raya	Datuk Sharifah Aini
+4	Selamat Berhari Raya	Rahimah Rahim
+5	Selamat Hari Raya	Puan Sri Saloma
+6	Balik Kampung	Dato' Sudirman
+7	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+8	Sesuci Lebaran	Dato' Sri Siti Nurhaliza
+9	Dari Jauh Kupohon Maaf	Dato' Sudirman
+10	Satu Hari Di Hari Raya	M. Nasir
+11	Selamat Hari Raya	Datuk Ahmad Jais
+12	Menjelang Hari Raya	Dato' DJ Dave
+13	Pulang Di Hari Raya	Noorkumalasari
+14	Suasana Riang Di Hari Raya	Junainah
+15	Senandung Hari Raya Untukmu	Dayangku Intan
+16	Takbir Raya	Various artists
+17	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+18	Play Date	Melanie Martinez
+19	Dendang Perantau	Tan Sri P. Ramlee
+20	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+21	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+22	Nazam Lebaran	Dato' Sri Siti Nurhaliza
+23	Warna Warni Aidilfitri	Nyanyian Ramai
+24	Bila Takbir Bergema	Rafeah Buang
+25	Kepulangan Yang Di Nanti	Aman Shah
+26	Indahnya Beraya Di Desa	Azlina Aziz
+27	Selamat Hari Raya	Fazidah Joned
+28	Daechwita	Agust D
+29	Intentions (feat. Quavo)	Justin Bieber, Quavo
+30	Supalonely	BENEE, Gus Dapperton
+31	Blinding Lights	The Weeknd
+32	Someone You Loved	Lewis Capaldi
+33	Toosie Slide	Drake
+34	Cahaya Aidilfitri	Black Dog Bone
+35	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+36	Aidilfitri	Sanisah Huri
+37	Be Kind (with Halsey)	Marshmello, Halsey
+38	Roses - Imanbek Remix	SAINt JHN, Imanbek
+39	Bersabarlah Sayang	Sanisah Huri
+40	Falling	Trevor Daniel
+41	Bersama Di Hari Raya	Cenderawasih
+42	Don't Start Now	Dua Lipa
+43	Before You Go	Lewis Capaldi
+44	Sunday Best	Surfaces
+45	Circles	Post Malone
+46	Bila Hari Raya Menjelma	Dato' Sri Siti Nurhaliza
+47	Air Mata Syawal	Dato' Sri Siti Nurhaliza
+48	Di Pagi Aidilfitri	Rosemaria
+49	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+50	Break My Heart	Dua Lipa
+1	All I Want for Christmas Is You	Mariah Carey
+2	Last Christmas	Wham!
+3	It's the Most Wonderful Time of the Year	Andy Williams
+4	Rockin' Around The Christmas Tree	Brenda Lee
+5	Jingle Bell Rock	Bobby Helms
+6	It's Beginning to Look a Lot like Christmas	Michael BublÃ©
+7	Feliz Navidad	JosÃ© Feliciano
+8	Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet)	Frank Sinatra, B. Swanson Quartet
+9	Dance Monkey	Tones And I
+10	Holly Jolly Christmas	Michael BublÃ©
+11	Do They Know It's Christmas? - 1984 Version	Band Aid
+12	Santa Tell Me	Ariana Grande
+13	Happy Xmas (War Is Over) - Remastered	John Lennon, The Harlem Community Choir, The Plastic Ono Band, Yoko Ono
+14	It's Beginning to Look a Lot Like Christmas (with Mitchell Ayres & His Orchestra)	Perry Como, The Fontane Sisters, Mitchell Ayres & His Orchestra
+15	The Christmas Song (Merry Christmas To You)	Nat King Cole
+16	Christmas (Baby Please Come Home)	Darlene Love
+17	Underneath the Tree	Kelly Clarkson
+18	A Holly Jolly Christmas - Single Version	Burl Ives
+19	Wonderful Christmastime - Edited Version / Remastered 2011	Paul McCartney
+20	White Christmas	Bing Crosby, Ken Darby Singers, John Scott Trotter & His Orchestra
+21	Mistletoe	Justin Bieber
+22	Santa Claus Is Coming to Town	Michael BublÃ©
+23	Merry Christmas Everyone	Shakin' Stevens
+24	Blue Christmas	Elvis Presley
+25	Let It Snow! Let It Snow! Let It Snow!	Dean Martin
+26	Sleigh Ride	The Ronettes
+27	Jingle Bell Rock - Daryl's Version	Daryl Hall & John Oates
+28	ROXANNE	Arizona Zervas
+29	Santa Claus Is Coming To Town	The Jackson 5
+30	Driving Home for Christmas - 2019 Remaster	Chris Rea
+31	Santa Claus Is Comin' to Town - Live at C.W. Post College, Greenvale, NY - December 1975	Bruce Springsteen
+32	Christmas (Baby Please Come Home)	Mariah Carey
+33	Falling	Trevor Daniel
+34	Have Yourself A Merry Little Christmas	Sam Smith
+35	My Only Wish (This Year)	Britney Spears
+36	Run Rudolph Run - Single Version	Chuck Berry
+37	I Saw Mommy Kissing Santa Claus	The Jackson 5
+38	I'll Be Home for Christmas	Michael BublÃ©
+39	Winter Wonderland	Tony Bennett
+40	Fairytale of New York (feat. Kirsty MacColl)	The Pogues, Kirsty MacColl
+41	One More Sleep	Leona Lewis
+42	Baby, It's Cold Outside	Dean Martin
+43	Circles	Post Malone
+44	Mistletoe And Holly - Remastered 1999	Frank Sinatra
+45	Happy Xmas (War Is Over)	CÃ©line Dion
+46	Santa Baby	Ariana Grande, Liz Gillies
+47	Santa Baby (with Henri RenÃ© & His Orchestra)	Eartha Kitt, Henri Rene & His Orchestra
+48	Blinding Lights	The Weeknd
+49	Joy To The World	Nat King Cole
+50	Don't Start Now	Dua Lipa
+1	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+2	Yo Perreo Sola	Bad Bunny
+3	Blinding Lights	The Weeknd
+4	Rojo	J Balvin
+5	Favorito	Camilo
+6	Jangueo	Alex Rose, Rafa PabÃ¶n
+7	Morado	J Balvin
+8	Azul	J Balvin
+9	Tattoo	Rauw Alejandro
+10	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+11	Si Veo a Tu MamÃ¡	Bad Bunny
+12	QuÃ© MaldiciÃ³n	Banda MS de Sergio LizÃ¡rraga, Snoop Dogg
+13	Tusa	KAROL G, Nicki Minaj
+14	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+15	La DifÃ­cil	Bad Bunny
+16	Don't Start Now	Dua Lipa
+17	El Efecto	Rauw Alejandro, Chencho Corleone
+18	Ignorantes	Bad Bunny, Sech
+19	PA' ROMPERLA	Bad Bunny, Don Omar
+20	Amarillo	J Balvin
+21	Diosa	Myke Towers
+22	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+23	Se Me OlvidÃ³	Christian Nodal
+24	Dance Monkey	Tones And I
+25	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+26	Break My Heart	Dua Lipa
+27	BYE ME FUI	Bad Bunny
+28	La Santa	Bad Bunny, Daddy Yankee
+29	Roses - Imanbek Remix	SAINt JHN, Imanbek
+30	PORFA	Feid, Justin Quiles
+31	Arriba	Natanael Cano
+32	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+33	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+34	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+35	LA CANCIÃ“N	J Balvin, Bad Bunny
+36	Vete	Bad Bunny
+37	A Tu Merced	Bad Bunny
+38	Negro	J Balvin
+39	Fantasias	Rauw Alejandro, Farruko
+40	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+41	Me La Avente	Carin Leon
+42	Say So	Doja Cat
+43	AYAYAY!	Christian Nodal
+44	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+45	Callaita	Bad Bunny, Tainy
+46	Yo Ya No Vuelvo Contigo - En Vivo	Lenin RamÃ­rez, Grupo Firme
+47	Amor Tumbado	Natanael Cano
+48	Blanco	J Balvin
+49	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+50	Supalonely	BENEE, Gus Dapperton
+1	Gordelweg	Kevin
+2	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+3	Roses - Imanbek Remix	SAINt JHN, Imanbek
+4	Blinding Lights	The Weeknd
+5	Breaking Me	Topic, A7S
+6	Video Vixen	Bilal Wahib, Bizzey
+7	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+8	Toosie Slide	Drake
+9	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+10	Supalonely	BENEE, Gus Dapperton
+11	17 Miljoen Mensen - Live @538 in Ahoy	Davina Michelle, Snelle
+12	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+13	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+14	Break My Heart	Dua Lipa
+15	Het Is Al Laat Toch	Racoon
+16	Intentions (feat. Quavo)	Justin Bieber, Quavo
+17	Jongen Van De Straat	Lil Kleine
+18	In Your Eyes	The Weeknd
+19	Soldier On	DI-RECT
+20	Loop Niet Weg	Kris Kross Amsterdam, Tino Martin, Emma Heesters
+21	Pa Olvidarte (Beste Zangers Seizoen 2019)	Emma Heesters, Rolf Sanchez
+22	Christian Dior (feat. Bryan Mg & SRNO)	Dopebwoy, Bryan Mg, SRNO
+23	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+24	Wat Is Je Naam	Yxng Le, Frenna
+25	Don't Start Now	Dua Lipa
+26	Beat Me - Official Song F1 Dutch Grand Prix	Davina Michelle
+27	Weg Van Jou	Suzan & Freek
+28	Say So	Doja Cat
+29	Dance Monkey	Tones And I
+30	Never Seen The Rain	Tones And I
+31	GOOBA	6ix9ine
+32	Roller Coaster	Danny Vera
+33	Alone, Pt. II	Alan Walker, Ava Max
+34	Before You Go	Lewis Capaldi
+35	Be Kind (with Halsey)	Marshmello, Halsey
+36	Rode Wijn	Maan, Kraantje Pappie
+37	Smoorverliefd	Snelle
+38	Blueberry Faygo	Lil Mosey
+39	Drown (feat. Clinton Kane)	Martin Garrix, Clinton Kane
+40	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+41	Underdog	Alicia Keys
+42	Busje (feat. Chivv & Lauwtje)	Zefanio, Chivv, Lauwtje
+43	Watermelon Sugar	Harry Styles
+44	Follow Your Dreams (with Jonna Fraser)	Emms, Jonna Fraser
+45	Slapen Met Het Licht Aan	Tabitha, Nielson
+46	Someone You Loved	Lewis Capaldi
+47	The Box	Roddy Ricch
+48	Perfect (feat. Haris)	Lucas & Steve, Haris
+49	Ride It	Regard
+50	Afrika	Chivv, Boef
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Roses - Imanbek Remix	SAINt JHN, Imanbek
+3	In the Air	L.A.B.
+4	Blinding Lights	The Weeknd
+5	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+6	Supalonely	BENEE, Gus Dapperton
+7	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+8	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+9	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+10	Toosie Slide	Drake
+11	Blueberry Faygo	Lil Mosey
+12	Intentions (feat. Quavo)	Justin Bieber, Quavo
+13	Don't Start Now	Dua Lipa
+14	Sunday Best	Surfaces
+15	The Box	Roddy Ricch
+16	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+17	Go Crazy	Chris Brown, Young Thug
+18	Long Gone	SIX60
+19	GOOBA	6ix9ine
+20	Dance Monkey	Tones And I
+21	Watermelon Sugar	Harry Styles
+22	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+23	Catching Feelings (feat. SIX60)	Drax Project, SIX60
+24	Glitter	BENEE
+25	WHATS POPPIN	Jack Harlow
+26	Break My Heart	Dua Lipa
+27	Rover (feat. DTG)	S1mba, DTG
+28	Before You Go	Lewis Capaldi
+29	Adore You	Harry Styles
+30	Say So	Doja Cat
+31	Someone You Loved	Lewis Capaldi
+32	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+33	BELIEVE IT	PARTYNEXTDOOR, Rihanna
+34	Circles	Post Malone
+35	After Party	Don Toliver
+36	In Your Eyes	The Weeknd
+37	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+38	ROXANNE	Arizona Zervas
+39	Boss Bitch	Doja Cat
+40	Party Girl	StaySolidRocky
+41	Memories	Maroon 5
+42	Falling	Trevor Daniel
+43	This City	Sam Fischer
+44	Be Kind (with Halsey)	Marshmello, Halsey
+45	Life Is Good (feat. Drake)	Future, Drake
+46	The Greatest	SIX60
+47	goosebumps	Travis Scott
+48	Controller	L.A.B.
+49	6 To The WORLD	Hp Boyz
+50	SICKO MODE	Travis Scott
+1	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+2	Yo Perreo Sola	Bad Bunny
+3	Rojo	J Balvin
+4	Tattoo	Rauw Alejandro
+5	Si Veo a Tu MamÃ¡	Bad Bunny
+6	Favorito	Camilo
+7	Blinding Lights	The Weeknd
+8	Ignorantes	Bad Bunny, Sech
+9	Diosa	Myke Towers
+10	BYE ME FUI	Bad Bunny
+11	A Tu Merced	Bad Bunny
+12	La DifÃ­cil	Bad Bunny
+13	La Santa	Bad Bunny, Daddy Yankee
+14	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+15	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+16	Vete	Bad Bunny
+17	Tusa	KAROL G, Nicki Minaj
+18	LA CANCIÃ“N	J Balvin, Bad Bunny
+19	Fantasias	Rauw Alejandro, Farruko
+20	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+21	Amarillo	J Balvin
+22	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+23	PA' ROMPERLA	Bad Bunny, Don Omar
+24	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+25	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+26	Don't Start Now	Dua Lipa
+27	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+28	Morado	J Balvin
+29	Callaita	Bad Bunny, Tainy
+30	Dance Monkey	Tones And I
+31	BAD CON NICKY	Bad Bunny, Nicky Jam
+32	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+33	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+34	Jangueo	Alex Rose, Rafa PabÃ¶n
+35	Djadja	Aya Nakamura
+36	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+37	Medusa	Jhay Cortez, Anuel AA, J Balvin
+38	BENDICIONES	Bad Bunny
+39	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+40	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+41	RITMO (Bad Boys For Life)	Black Eyed Peas, J Balvin
+42	Pero Ya No	Bad Bunny
+43	Bajo La Mesa	Morat, Sebastian Yatra
+44	Girl	Myke Towers
+45	Bichiyal	Bad Bunny, Yaviah
+46	Tutu	Camilo, Pedro CapÃ³
+47	Por Primera Vez	Camilo, Evaluna Montaner
+48	Azul	J Balvin
+49	Daechwita	Agust D
+50	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+1	Svag	Victor Leksell
+2	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+3	Blinding Lights	The Weeknd
+4	Sykepleierinnen (Sykehuset 2020)	El Papi
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	In Your Eyes	The Weeknd
+7	GOOBA	6ix9ine
+8	Lose Somebody	Kygo, OneRepublic
+9	Karantene	TIX
+10	SKÃ…L	TIX
+11	Kaller PÃ¥ Deg	TIX
+12	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+13	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+14	Somebody	Dagny
+15	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+16	Kings & Queens	Ava Max
+17	Dommedagen 2020	TIX, Soppgirobygget
+18	Dance Monkey	Tones And I
+19	Hvis verden	Chris Holsten, Frida Ã…nnevik
+20	End of Time	K-391, Alan Walker, Ahrix
+21	Salt	Ava Max
+22	Toosie Slide	Drake
+23	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+24	Play Date	Melanie Martinez
+25	Bad Child	Tones And I
+26	I Don't Know Why	NOTD, Astrid S
+27	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+28	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+29	Someone You Loved	Lewis Capaldi
+30	The Truth	Kygo, Valerie Broussard
+31	Like It Is	Kygo, Zara Larsson, Tyga
+32	Supalonely	BENEE, Gus Dapperton
+33	Breaking Me	Topic, A7S
+34	Don't Start Now	Dua Lipa
+35	Blueberry Faygo	Lil Mosey
+36	Break My Heart	Dua Lipa
+37	Burn Down This Room	Ruben
+38	Before You Go	Lewis Capaldi
+39	Boss Bitch	Doja Cat
+40	DANCE	CLMD, Tungevaag
+41	Haugenstua	Herman Flesvig
+42	Valhalla	Ringnes-Ronny
+43	Be Kind (with Halsey)	Marshmello, Halsey
+44	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+45	JÃ¦vlig	TIX
+46	WHATS POPPIN	Jack Harlow
+47	Josefine	Herman Flesvig
+48	Vi tar det igjen neste Ã¥r	Kuselofte, Postgirobygget
+49	The Box	Roddy Ricch
+50	Unfamiliar	Seeb, Goodboys, HRVY
+1	RelaciÃ³n	Sech
+2	ConfÃ­a	Sech, Daddy Yankee
+3	Rojo	J Balvin
+4	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+5	Bentley	Sech, Myke Towers
+6	Yo Perreo Sola	Bad Bunny
+7	Me OlvidÃ©	Sech
+8	Ignorantes	Bad Bunny, Sech
+9	Favorito	Camilo
+10	Casino	Sech
+11	Diosa	Myke Towers
+12	BYE ME FUI	Bad Bunny
+13	Tattoo	Rauw Alejandro
+14	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+15	PORFA	Feid, Justin Quiles
+16	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+17	Oficial	Sech, Arcangel, Gigolo Y La Exce
+18	Si Te Vas	Sech, Ozuna
+19	Party En Mi Casa	Boza
+20	Se Va Viral	Sech, Nando Boom
+21	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+22	Tusa	KAROL G, Nicki Minaj
+23	Trofeo	Sech
+24	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+25	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+26	La DifÃ­cil	Bad Bunny
+27	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+28	Follow	KAROL G, Anuel AA
+29	Blinding Lights	The Weeknd
+30	Fantasias	Rauw Alejandro, Farruko
+31	Vete	Bad Bunny
+32	Bajo La Mesa	Morat, Sebastian Yatra
+33	Portarse Mal	Sech
+34	Dale	Sech, Lenny TavÃ¡rez
+35	Fe	Sech
+36	Amarillo	J Balvin
+37	Si Veo a Tu MamÃ¡	Bad Bunny
+38	Definitivamente	Daddy Yankee, Sech
+39	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+40	Tu y Yo	Sech, Zion & Lennox
+41	En Lo Oscuro	Sech
+42	La Santa	Bad Bunny, Daddy Yankee
+43	Por Primera Vez	Camilo, Evaluna Montaner
+44	Uni	Sech
+45	Fabuloso	Sech, Justin Quiles
+46	Morado	J Balvin
+47	Mejor	Dalex, Sech
+48	Keii	Anuel AA
+49	Arriba	Sech, Farruko
+50	PA' ROMPERLA	Bad Bunny, Don Omar
+1	Rojo	J Balvin
+2	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+3	CANCIÃ“N CON YANDEL	Yandel, Bad Bunny
+4	Inolvidable	Ovy On The Drums, BeÃ©le
+5	PORFA	Feid, Justin Quiles
+6	Tattoo	Rauw Alejandro
+7	Ignorantes	Bad Bunny, Sech
+8	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+9	Yo Perreo Sola	Bad Bunny
+10	BYE ME FUI	Bad Bunny
+11	Diosa	Myke Towers
+12	Favorito	Camilo
+13	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+14	RelaciÃ³n	Sech
+15	La DifÃ­cil	Bad Bunny
+16	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+17	Si Veo a Tu MamÃ¡	Bad Bunny
+18	Mejor	Dalex, Sech
+19	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+20	Skechers	DripReport
+21	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+22	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+23	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+24	Jangueo	Alex Rose, Rafa PabÃ¶n
+25	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+26	Locura	Cali Y El Dandee, Sebastian Yatra
+27	Fantasias	Rauw Alejandro, Farruko
+28	Follow	KAROL G, Anuel AA
+29	Tusa	KAROL G, Nicki Minaj
+30	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+31	Vete	Bad Bunny
+32	Blinding Lights	The Weeknd
+33	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+34	Amarillo	J Balvin
+35	Loco - Remix	Farruko, BeÃ©le, Natti Natasha, Manuel Turizo
+36	Keii	Anuel AA
+37	Girl	Myke Towers
+38	Morado	J Balvin
+39	La Santa	Bad Bunny, Daddy Yankee
+40	Bajo La Mesa	Morat, Sebastian Yatra
+41	Quizas	Rich Music LTD, Sech, Dalex, Justin Quiles, Lenny TavÃ¡rez, Feid, Wisin, Zion
+42	Adicto (with Anuel AA & Ozuna)	Tainy, Anuel AA, Ozuna
+43	Mi Error - Remix	Eladio Carrion, Zion & Lennox, Wisin & Yandel, Lunay
+44	BAD CON NICKY	Bad Bunny, Nicky Jam
+45	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+46	LA CANCIÃ“N	J Balvin, Bad Bunny
+47	Por Primera Vez	Camilo, Evaluna Montaner
+48	PA' ROMPERLA	Bad Bunny, Don Omar
+49	La Cama - Remix	Lunay, Myke Towers, Ozuna, Chencho Corleone, Rauw Alejandro
+50	Pa' Olvidarme De Ella	Piso 21, Christian Nodal
+1	Favorito	Camilo
+2	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+3	Yo Perreo Sola	Bad Bunny
+4	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+5	Tattoo	Rauw Alejandro
+6	Por Primera Vez	Camilo, Evaluna Montaner
+7	Blinding Lights	The Weeknd
+8	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+9	PORFA	Feid, Justin Quiles
+10	Diosa	Myke Towers
+11	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+12	Rojo	J Balvin
+13	RelaciÃ³n	Sech
+14	Locura	Cali Y El Dandee, Sebastian Yatra
+15	Djadja	Aya Nakamura
+16	Tusa	KAROL G, Nicki Minaj
+17	Sigues Con El - Remix	Arcangel, Sech, Romeo Santos
+18	Don't Start Now	Dua Lipa
+19	Bajo La Mesa	Morat, Sebastian Yatra
+20	Morado	J Balvin
+21	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+22	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+23	Si Veo a Tu MamÃ¡	Bad Bunny
+24	Fantasias	Rauw Alejandro, Farruko
+25	Jangueo	Alex Rose, Rafa PabÃ¶n
+26	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+27	Dance Monkey	Tones And I
+28	Ignorantes	Bad Bunny, Sech
+29	La DifÃ­cil	Bad Bunny
+30	Amarillo	J Balvin
+31	BYE ME FUI	Bad Bunny
+32	Si Me Dices Que SÃ­	Reik, Farruko, Camilo
+33	El Efecto	Rauw Alejandro, Chencho Corleone
+34	Los Besos	Greeicy
+35	Loco - Remix	Farruko, BeÃ©le, Natti Natasha, Manuel Turizo
+36	Tutu	Camilo, Pedro CapÃ³
+37	Detente	Mike BahÃ­a, Danny Ocean
+38	La DifÃ­cil	Camilo
+39	Fantasias - Remix	Rauw Alejandro, Anuel AA, Natti Natasha, Farruko, Lunay
+40	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+41	BAD CON NICKY	Bad Bunny, Nicky Jam
+42	China	Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+43	DJ No Pare (feat. Zion, Dalex, Lenny TavÃ¡rez) - Remix	Justin Quiles, Natti Natasha, Farruko, Dalex, Lenny TavÃ¡rez, Zion
+44	Dream Girl - Remix	Ir Sais, Rauw Alejandro
+45	Desconocidos	Mau y Ricky, Manuel Turizo, Camilo
+46	Girl	Myke Towers
+47	Roses - Imanbek Remix	SAINt JHN, Imanbek
+48	Te Vi	Piso 21, Micro TDH
+49	QuiÃ©reme Mientras Se Pueda	Manuel Turizo
+50	No Me Conoce - Remix	Jhay Cortez, J Balvin, Bad Bunny
+1	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+2	Teka Lang	Emman
+3	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+4	Intentions (feat. Quavo)	Justin Bieber, Quavo
+5	Don't Start Now	Dua Lipa
+6	Sunday Best	Surfaces
+7	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+8	Supalonely	BENEE, Gus Dapperton
+9	Imahe	Magnus Haven
+10	Beautiful Scars	Maximillian
+11	Someone You Loved	Lewis Capaldi
+12	Malayo Ka Man	Jr Crown, Kath, Cyclone, Young Weezy
+13	Toosie Slide	Drake
+14	Like That (feat. Gucci Mane)	Doja Cat, Gucci Mane
+15	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+16	Make It With You	Ben&Ben
+17	Break My Heart	Dua Lipa
+18	10,000 Hours (with Justin Bieber)	Dan + Shay, Justin Bieber
+19	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+20	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+21	Dance Monkey	Tones And I
+22	Sa Susunod na Habang Buhay	Ben&Ben
+23	Circles	Post Malone
+24	Make You Mine	PUBLIC
+25	Blinding Lights	The Weeknd
+26	Hindi Tayo Pwede	The Juans
+27	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+28	Kathang Isip	Ben&Ben
+29	Vibe With Me	Matthaios, Lonezo
+30	Araw-Araw Love	Flow G
+31	Binibini	Matthaios, Calvin De Leon
+32	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+33	Maybe The Night	Ben&Ben
+34	Be Kind (with Halsey)	Marshmello, Halsey
+35	Falling	Trevor Daniel
+36	good guys	LANY
+37	Memories	Maroon 5
+38	Pagtingin	Ben&Ben
+39	ROXANNE	Arizona Zervas
+40	Daechwita	Agust D
+41	Ivana	Soulstice
+42	Mean It	Lauv, LANY
+43	Titig	MC Einstein, Flow G, Jekkpot, Yuridope
+44	Daisies	Katy Perry
+45	Lose Somebody	Kygo, OneRepublic
+46	Yellow Hearts	Ant Saunders
+47	Sana	I Belong to the Zoo
+48	Bounty	Ex Battalion
+49	Leaves	Ben&Ben
+50	Kung Pwede Lang	Emman
+1	BUBBLETEA	Quebonafide, Daria ZawiaÅ‚ow
+2	#Hot16Challenge2	Szpaku, Raff J.R.
+3	Blinding Lights	The Weeknd
+4	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	TOKYO2020	Quebonafide, Taco Hemingway
+7	Impreza	Sobel, Lezter
+8	Szampan	sanah
+9	SZUBIENICAPESTYCYDYBROÅƒ	Quebonafide
+10	NiedostÄ™pny (prod. by Olek) (feat. DMN)	Malik Montana, OLEK, DMN
+11	In Your Eyes	The Weeknd
+12	MÅ‚ody Boss	Å»abson
+13	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+14	GOOBA	6ix9ine
+15	Break My Heart	Dua Lipa
+16	Salt	Ava Max
+17	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+18	Physical	Dua Lipa
+19	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+20	Supalonely	BENEE, Gus Dapperton
+21	100 dni do matury	Mata
+22	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+23	Dance Monkey	Tones And I
+24	Melodia	sanah
+25	Don't Start Now	Dua Lipa
+26	Watermelon Sugar	Harry Styles
+27	Breaking Me	Topic, A7S
+28	Toosie Slide	Drake
+29	Rainman	Tymek, TEDE, Trill Pem, MichaÅ‚ Graczyk, 2K
+30	BLUE	TiÃ«sto, Stevie Appleton
+31	Patointeligencja	Mata
+32	Say So	Doja Cat
+33	Boss Bitch	Doja Cat
+34	NIEPÅACZÄ˜PONOTREDAME	Quebonafide, Bedoes
+35	VOGUE	Bedoes, Lanek
+36	Surfer	Be Vis
+37	Drift	Bialas, Mata, Lanek
+38	W PIÄ„TKI LEÅ»Ä˜ W WANNIE	Taco Hemingway, Dawid PodsiadÅ‚o
+39	KrÃ³lowa dram	sanah
+40	JÄ™zyk ciaÅ‚a	Tymek, Big Scythe
+41	GOMBAO 33	Mata, WyguÅ›, Szczepan, Adam
+42	ASPARTAM	Quebonafide, Mata
+43	GAZPROM	Quebonafide, SokÃ³Å‚, Czarny HIFI
+44	Kings & Queens	Ava Max
+45	Play Date	Melanie Martinez
+46	Daechwita	Agust D
+47	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+48	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+49	BÄ™dzie Lepiej	Miyo, Tymek
+50	MogÄ™ DziÅ› UmieraÄ‡	White 2115
+1	Toosie Slide	Drake
+2	Blinding Lights	The Weeknd
+3	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+4	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	Tempo (feat. TÃ³y TÃ³y T-Rex, LON3R JOHNY & BISPO)	FRANKIEONTHEGUITAR, TÃ³y TÃ³y T-Rex, LON3R JOHNY, Bispo
+7	Tudo no Sigilo	Vytinho NG, MC Bianca
+8	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+9	Don't Start Now	Dua Lipa
+10	La Bella Mafia	Wet Bed Gang
+11	The Box	Roddy Ricch
+12	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+13	Blueberry Faygo	Lil Mosey
+14	ConclusÃ£o	Julinho Ksd
+15	Life Is Good (feat. Drake)	Future, Drake
+16	Lembrei-me	Bispo
+17	Mama Ta Xinti	Julinho Ksd
+18	menina solta	Giulia Be
+19	Somos Iguais	PlutÃ³nio
+20	HIGHEST IN THE ROOM	Travis Scott
+21	Breaking Me	Topic, A7S
+22	Tusa	KAROL G, Nicki Minaj
+23	Louco	Piruka, Bluay
+24	Te Amo	Calema
+25	Falling	Trevor Daniel
+26	goosebumps	Travis Scott
+27	Hoji N'ka ta Rola	Julinho Ksd
+28	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+29	GOOBA	6ix9ine
+30	ROXANNE	Arizona Zervas
+31	Eterna Sacanagem	MC JottaPÃª, MC Kekel, MC Kevinho
+32	SICKO MODE	Travis Scott
+33	Tranquilo	AragÃ£o
+34	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+35	Dance Monkey	Tones And I
+36	Sunday Best	Surfaces
+37	Don't Rush (feat. Headie One)	Young T & Bugsey, Headie One
+38	Break My Heart	Dua Lipa
+39	Conto	Dillaz
+40	Supalonely	BENEE, Gus Dapperton
+41	Say So	Doja Cat
+42	HEI	ProfJam
+43	In Your Eyes	The Weeknd
+44	everything i wanted	Billie Eilish
+45	Circles	Post Malone
+46	Essa Saia (feat. Ivandro)	Bispo, Ivandro
+47	Watermelon Sugar	Harry Styles
+48	Party Girl	StaySolidRocky
+49	S2	Bispo
+50	Adore You	Harry Styles
+1	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+2	Roses - Imanbek Remix	SAINt JHN, Imanbek
+3	Go Gettas	andrei, Killa Fonic, Nane, bbno$, Azteca
+4	Blinding Lights	The Weeknd
+5	GOOBA	6ix9ine
+6	HIGHEST IN THE ROOM	Travis Scott
+7	Toosie Slide	Drake
+8	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+9	The Box	Roddy Ricch
+10	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+11	goosebumps	Travis Scott
+12	SICKO MODE	Travis Scott
+13	Blueberry Faygo	Lil Mosey
+14	Breaking Me	Topic, A7S
+15	Daechwita	Agust D
+16	Life Is Good (feat. Drake)	Future, Drake
+17	Don't Start Now	Dua Lipa
+18	Falling	Trevor Daniel
+19	Miami Bici	Killa Fonic
+20	Sigur Dar Incet	Ian, Azteca
+21	WHATS POPPIN	Jack Harlow
+22	In Your Eyes	The Weeknd
+23	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+24	After Party	Don Toliver
+25	Dau Moda	Jador, Lino Golden
+26	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+27	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+28	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+29	Dragostea Ta	Nane
+30	Break My Heart	Dua Lipa
+31	Dance Monkey	Tones And I
+32	ROXANNE	Arizona Zervas
+33	Party Girl	StaySolidRocky
+34	Pala Mande	Azteca, Ian
+35	Dior	Marko Glass, Bvcovia
+36	Mili	Ian, Amtilb, Simiz
+37	Intentions (feat. Quavo)	Justin Bieber, Quavo
+38	Watermelon Sugar	Harry Styles
+39	Circles	Post Malone
+40	Boss Bitch	Doja Cat
+41	60 De Zile	Ian, Amuly
+42	Haolo	Killa Fonic, Nane
+43	Nefiu	Ian, Azteca
+44	Be Kind (with Halsey)	Marshmello, Halsey
+45	Sunday Best	Surfaces
+46	bad guy	Billie Eilish
+47	Supalonely	BENEE, Gus Dapperton
+48	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+49	Lose Control	MEDUZA, Becky Hill, Goodboys
+50	Play Date	Melanie Martinez
+1	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+2	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+3	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+4	Play Date	Melanie Martinez
+5	Be Kind (with Halsey)	Marshmello, Halsey
+6	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+7	Blinding Lights	The Weeknd
+8	Don't Start Now	Dua Lipa
+9	Intentions (feat. Quavo)	Justin Bieber, Quavo
+10	Someone You Loved	Lewis Capaldi
+11	Daechwita	Agust D
+12	Memories	Maroon 5
+13	Roses - Imanbek Remix	SAINt JHN, Imanbek
+14	Supalonely	BENEE, Gus Dapperton
+15	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+16	Dance Monkey	Tones And I
+17	Toosie Slide	Drake
+18	Circles	Post Malone
+19	Break My Heart	Dua Lipa
+20	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+21	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+22	Blueberry Faygo	Lil Mosey
+23	Before You Go	Lewis Capaldi
+24	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+25	Sunday Best	Surfaces
+26	æƒ³è¦‹ä½ æƒ³è¦‹ä½ æƒ³è¦‹ä½ (é›»è¦–åŠ‡"æƒ³è¦‹ä½ "ç‰‡å°¾æ›²)	831
+27	In Your Eyes	The Weeknd
+28	æ€Žéº¼äº†	Eric Chou
+29	SeÃ±orita	Shawn Mendes, Camila Cabello
+30	èªªå¥½ä¸å“­	Jay Chou, Ashin Chen
+31	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+32	Lose Somebody	Kygo, OneRepublic
+33	Falling	Trevor Daniel
+34	Say So	Doja Cat
+35	Daisies	Katy Perry
+36	Suasana Di Hari Raya	Anuar & Ellina
+37	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+38	ROXANNE	Arizona Zervas
+39	10,000 Hours (with Justin Bieber)	Dan + Shay, Justin Bieber
+40	WANNABE	ITZY
+41	Boss Bitch	Doja Cat
+42	ä½ ,å¥½ä¸å¥½? - Ending Theme Song of TVBS Series "Life List"	Eric Chou
+43	What do you think?	Agust D
+44	The Box	Roddy Ricch
+45	Seloka Hari Raya	Uji Rashid, Hail Amir
+46	æœ‰ä¸€ç¨®æ‚²å‚· - é›»å½±ã€Šæ¯”æ‚²å‚·æ›´æ‚²å‚·çš„æ•…äº‹ã€‹ä¸»é¡Œæ›²	A-Lin
+47	å‘Šç™½æ°£çƒ	Jay Chou
+48	Strange	Agust D, RM
+49	28	Agust D, NiiHWA
+50	Moonlight	Agust D
+1	Roses - Imanbek Remix	SAINt JHN, Imanbek
+2	GOOBA	6ix9ine
+3	Blinding Lights	The Weeknd
+4	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+5	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+6	Breaking Me	Topic, A7S
+7	Viac	NerieÅ¡, Separ
+8	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+9	Ahoj Ahoj ÄŒo Ty	Separ
+10	Og	Separ
+11	Origami	Separ, Ben Cristovao
+12	Toosie Slide	Drake
+13	ÄŒo Odo MÅˆa Chcete	Separ, Karlo, Nik Tendo, Yzomandias
+14	The Box	Roddy Ricch
+15	StrÃ½ko Separ	Separ
+16	ÄŒo Sa DÃ¡	Separ
+17	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+18	Don't Start Now	Dua Lipa
+19	Falling	Trevor Daniel
+20	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+21	Boss Bitch	Doja Cat
+22	Break My Heart	Dua Lipa
+23	Dance Monkey	Tones And I
+24	VÅ¡etci Za JednÃ©ho	Separ, Tina
+25	Pinokio	Separ, Dano KapitÃ¡n
+26	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+27	Blueberry Faygo	Lil Mosey
+28	Supalonely	BENEE, Gus Dapperton
+29	Ride It	Regard
+30	In Your Eyes	The Weeknd
+31	Watermelon Sugar	Harry Styles
+32	Sunday Best	Surfaces
+33	J Lo	Kontrafakt, Dalyb, Dokkeytino, Mirez, Zayo
+34	Ruka Na Volante	NerieÅ¡
+35	Circles	Post Malone
+36	SchÃ­za	Separ, DMS
+37	SICKO MODE	Travis Scott
+38	goosebumps	Travis Scott
+39	Snake Moves	Separ, Yzomandias
+40	HIGHEST IN THE ROOM	Travis Scott
+41	ROXANNE	Arizona Zervas
+42	Neviditelnej	Kontrafakt, Calin, Viktor Sheen
+43	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+44	Be Kind (with Halsey)	Marshmello, Halsey
+45	Ruky PreÄ	Separ, Bitman, Rest
+46	So Mnou	Separ
+47	Someone You Loved	Lewis Capaldi
+48	Salt	Ava Max
+49	Vietor	Separ, NerieÅ¡
+50	Hood Hero	Separ
+1	Blinding Lights	The Weeknd
+2	Toosie Slide	Drake
+3	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+4	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	The Box	Roddy Ricch
+7	ZOL	Max Hurrell
+8	Blueberry Faygo	Lil Mosey
+9	Life Is Good (feat. Drake)	Future, Drake
+10	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+11	Dance Monkey	Tones And I
+12	Don't Start Now	Dua Lipa
+13	Intentions (feat. Quavo)	Justin Bieber, Quavo
+14	Circles	Post Malone
+15	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+16	Someone You Loved	Lewis Capaldi
+17	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+18	Falling	Trevor Daniel
+19	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+20	WHATS POPPIN	Jack Harlow
+21	Memories	Maroon 5
+22	You're the One	Elaine
+23	In Your Eyes	The Weeknd
+24	Chicago Freestyle (feat. Giveon)	Drake, Giveon
+25	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+26	HIGHEST IN THE ROOM	Travis Scott
+27	goosebumps	Travis Scott
+28	GOOBA	6ix9ine
+29	Beautiful People (feat. Khalid)	Ed Sheeran, Khalid
+30	Go Crazy	Chris Brown, Young Thug
+31	ROXANNE	Arizona Zervas
+32	SICKO MODE	Travis Scott
+33	Righteous	Juice WRLD
+34	Sunday Best	Surfaces
+35	Party Girl	StaySolidRocky
+36	Be Kind (with Halsey)	Marshmello, Halsey
+37	everything i wanted	Billie Eilish
+38	eMcimbini - Live	Kabza De Small, DJ Maphorisa, Aymos, Samthing Soweto, Mas Musiq, Myztro
+39	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+40	Break My Heart	Dua Lipa
+41	WUNNA	Gunna
+42	I Need You - From the Netflix original series "Blood & Water"	Nasty C, Rowlene
+43	After Party	Don Toliver
+44	Godzilla (feat. Juice WRLD)	Eminem, Juice WRLD
+45	Before You Go	Lewis Capaldi
+46	SeÃ±orita	Shawn Mendes, Camila Cabello
+47	Sunflower - Spider-Man: Into the Spider-Verse	Post Malone, Swae Lee
+48	Breaking Me	Topic, A7S
+49	I Don't Care (with Justin Bieber)	Ed Sheeran, Justin Bieber
+50	BELIEVE IT	PARTYNEXTDOOR, Rihanna
+1	PAM	Justin Quiles, Daddy Yankee, El Alfa
+2	La Jeepeta - Remix	Nio Garcia, Anuel AA, Myke Towers, Brray, Juanka
+3	Nunca Estoy	C. Tangana
+4	Sola & VacÃ­a	Casper Magico, Anuel AA
+5	PA' ROMPERLA	Bad Bunny, Don Omar
+6	Mil Tequilas	Chema Rivas
+7	Favorito	Camilo
+8	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+9	Amarillo	J Balvin
+10	Hola, Nena (feat. Omar Montes)	Nyno Vargas, Omar Montes
+11	PORFA	Feid, Justin Quiles
+12	Dime Bbsita	Robledo, Alex Martini
+13	Tusa	KAROL G, Nicki Minaj
+14	4 besos	Lola Indigo, Rauw Alejandro, Lalo Ebratt
+15	MÃS DE UNA CITA	Bad Bunny, Zion & Lennox
+16	RelaciÃ³n	Sech
+17	Rojo	J Balvin
+18	Yo Perreo Sola	Bad Bunny
+19	BAD CON NICKY	Bad Bunny, Nicky Jam
+20	Loco	BeÃ©le
+21	Una Mala (Remix)	El Completo Rd, Chimbala
+22	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+23	Se iluminaba	Fred De Palma, Ana Mena
+24	Tattoo	Rauw Alejandro
+25	CÃ“MO SE SIENTE - Remix	Jhay Cortez, Bad Bunny
+26	Tak Tiki Tak	Harry Nach
+27	El Efecto	Rauw Alejandro, Chencho Corleone
+28	Sur y Norte	Nengo Flow, Anuel AA
+29	Enemigos	Aitana, Reik
+30	Diosa	Myke Towers
+31	ConfÃ­a	Sech, Daddy Yankee
+32	AtrÃ©vete	Yago Roche
+33	Tu Eres Un Bom Bom - Remix	Kafu Banton, Bad Gyal
+34	Morado	J Balvin
+35	Roses - Imanbek Remix	SAINt JHN, Imanbek
+36	Blinding Lights	The Weeknd
+37	Si TÃº La Quieres	David Bisbal, Aitana
+38	La DifÃ­cil	Bad Bunny
+39	La Cama - Remix	Lunay, Myke Towers, Ozuna, Chencho Corleone, Rauw Alejandro
+40	Fantasias - Remix	Rauw Alejandro, Anuel AA, Natti Natasha, Farruko, Lunay
+41	Dance Monkey	Tones And I
+42	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+43	Follow	KAROL G, Anuel AA
+44	Pegamos Tela	LÃ©rica, Omar Montes, Abraham Mateo
+45	Locura	Cali Y El Dandee, Sebastian Yatra
+46	Prendio (Remix)	Rvfv, Omar Montes, Daviles de Novelda
+47	Ponte Pa' Mi	Rauw Alejandro, Myke Towers, Sky Rompiendo
+48	Gris	J Balvin
+49	Alocao (With Bad Gyal)	Omar Montes, Bad Gyal
+50	BYE ME FUI	Bad Bunny
+1	Blinding Lights	The Weeknd
+2	Svag	Victor Leksell
+3	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+4	Young & Heartless	Yasin
+5	Komplicerad	Miss Li
+6	Chris Tukker Ft Asme	Yasin, Asme
+7	Hiphop N RnB	Yasin
+8	Source Ft Aden	Yasin, Aden
+9	Workin	Yasin
+10	Spiderman ( Intro )	Yasin
+11	Buzz Light Year	Yasin
+12	Think About It	Yasin
+13	GOOBA	6ix9ine
+14	Amen	Yasin
+15	Drownin	Yasin
+16	Roses - Imanbek Remix	SAINt JHN, Imanbek
+17	En sÃ¤ng av rosor	Darin
+18	In Your Eyes	The Weeknd
+19	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+20	Kanske var vi rÃ¤tt bra Ã¤ndÃ¥	Newkid
+21	Ghetto Mamacita	EinÃ¡r, Dree Low
+22	Lev nu dÃ¶ sen	Miss Li
+23	Passa dig	Miriam Bryant
+24	Dance Monkey	Tones And I
+25	Lose Somebody	Kygo, OneRepublic
+26	DIP DIP	Dree Low, Owen
+27	Sexcigg	Lov1
+28	Toosie Slide	Drake
+29	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+30	Sykepleierinnen (Sykehuset 2020)	El Papi
+31	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+32	BLod	Asme
+33	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+34	Welcome To Sweden	EinÃ¡r
+35	PIPPI	Dree Low
+36	Rover (feat. DTG)	S1mba, DTG
+37	Blueberry Faygo	Lil Mosey
+38	Det Kommer Bli Bra	Laleh
+39	Kings & Queens	Ava Max
+40	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+41	Va hÃ¤ndish	EinÃ¡r, Thrife
+42	Think About Things	DaÃ°i Freyr
+43	NÃ¥n av oss	Miriam Bryant
+44	Don't Start Now	Dua Lipa
+45	Break My Heart	Dua Lipa
+46	Chambea	Newkid
+47	Apelsinskal (feat. Newkid)	Tjuvjakt, Newkid
+48	Like It Is	Kygo, Zara Larsson, Tyga
+49	Alla drÃ¶mmar Ã¤r uppfyllda	HÃ¥kan HellstrÃ¶m
+50	Salt	Ava Max
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Komm Komm	Capital Bra
+3	Roadrunner	Bonez MC
+4	Roses - Imanbek Remix	SAINt JHN, Imanbek
+5	Blinding Lights	The Weeknd
+6	GOOBA	6ix9ine
+7	Toosie Slide	Drake
+8	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+9	Dance Monkey	Tones And I
+10	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+11	Breaking Me	Topic, A7S
+12	Fame	Apache 207
+13	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+14	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+15	MAMACITA	Black Eyed Peas, Ozuna, J. Rey Soul
+16	In Your Eyes (feat. Alida)	Robin Schulz, Alida
+17	Nicht verdient	Capital Bra, Loredana
+18	Salt	Ava Max
+19	Tusa	KAROL G, Nicki Minaj
+20	Airwaves	Pashanim
+21	FAVELA	Dardan
+22	The Box	Roddy Ricch
+23	Sunday Best	Surfaces
+24	Don't Start Now	Dua Lipa
+25	Supalonely	BENEE, Gus Dapperton
+26	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+27	Kings & Queens	Ava Max
+28	Emotions	Ufo361
+29	Lose Somebody	Kygo, OneRepublic
+30	Someone You Loved	Lewis Capaldi
+31	Blueberry Faygo	Lil Mosey
+32	HIGHEST IN THE ROOM	Travis Scott
+33	Roller	Apache 207
+34	Modela	Ardian Bujupi
+35	JAUNÃ‰	Booba, Zed
+36	Before You Go	Lewis Capaldi
+37	Life Is Good (feat. Drake)	Future, Drake
+38	Ride It	Regard
+39	Break My Heart	Dua Lipa
+40	Falling	Trevor Daniel
+41	WHATS POPPIN	Jack Harlow
+42	Boss Bitch	Doja Cat
+43	Some Say	Nea
+44	Don't Rush (feat. Headie One)	Young T & Bugsey, Headie One
+45	goosebumps	Travis Scott
+46	Say So	Doja Cat
+47	Fingertips	Tom Gregory
+48	GEHT NICH GIBS NICH	KC Rebell, Summer Cem
+49	WIEDER MAL	FOURTY, Monet192
+50	Maison	Luciano
+1	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+2	å¥¹æ²’åœ¨çœ‹æˆ‘	ç˜¦å­E.SO
+3	æƒ³è¦‹ä½ æƒ³è¦‹ä½ æƒ³è¦‹ä½ (é›»è¦–åŠ‡"æƒ³è¦‹ä½ "ç‰‡å°¾æ›²)	831
+4	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+5	Without You	é«˜çˆ¾å®£ OSN
+6	CHANGE	ç˜¦å­E.SO
+7	å¤ªé™½	Pika Chiu
+8	æ€Žéº¼äº†	Eric Chou
+9	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+10	Be Kind (with Halsey)	Marshmello, Halsey
+11	å¤©é»‘è«‹é–‰çœ¼ feat. é‚±é‹’æ¾¤	Nine Chen, Feng Ze
+12	æœ‰ä¸€ç¨®æ‚²å‚· - é›»å½±ã€Šæ¯”æ‚²å‚·æ›´æ‚²å‚·çš„æ•…äº‹ã€‹ä¸»é¡Œæ›²	A-Lin
+13	çœŸçš„å‚» (é›»å½±ã€Šä¸€å»å®šæƒ…ã€‹è¿½æ„›ç‰ˆä¸»é¡Œæ›²)	LaLa Hsu
+14	Intentions (feat. Quavo)	Justin Bieber, Quavo
+15	Don't Start Now	Dua Lipa
+16	èªªå¥½ä¸å“­	Jay Chou, Ashin Chen
+17	å¹´å°‘æœ‰ç‚º	Ronghao Li
+18	Break My Heart	Dua Lipa
+19	è·¯éŽäººé–“	Yisa Yu
+20	Lose Somebody	Kygo, OneRepublic
+21	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+22	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+23	SeÃ±orita	Shawn Mendes, Camila Cabello
+24	ç»¿è‰²	Shirley Chen
+25	Why You Gonna Lie	é«˜çˆ¾å®£ OSN
+26	æµªæµé€£	EggPlantEgg
+27	Blinding Lights	The Weeknd
+28	Memories	Maroon 5
+29	å¥è™Ÿ	G.E.M.
+30	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+31	æŠ«æ˜Ÿæˆ´æœˆçš„æƒ³ä½ 	å‘Šäº”äºº
+32	Toosie Slide	Drake
+33	Someone You Loved	Lewis Capaldi
+34	é‚£å¥³å­©å°æˆ‘èªª	Rachel Liang
+35	Dance Monkey	Tones And I
+36	ä½ çš„é…’é¦†å¯¹æˆ‘æ‰“äº†çƒŠ	Shirley Chen
+37	COLORFUL	å©å³»ç¢©
+38	Without You - Acoustic Version	é«˜çˆ¾å®£ OSN, Vicky Chen
+39	Daechwita	Agust D
+40	å€’æ•¸	G.E.M.
+41	æœ€å¾Œä¸€æ¬¡	é«˜çˆ¾å®£ OSN
+42	Daisies	Katy Perry
+43	æ…¢å†·	Fish Leong
+44	ä½ è¦çš„å…¨æ‹¿èµ°	Tiger Hu
+45	Circles	Post Malone
+46	åš£å¼ 	En
+47	WANNABE	ITZY
+48	Blueberry Faygo	Lil Mosey
+49	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+50	å…œåœˆ (å¶åƒåŠ‡ã€Œå¿…å¨¶å¥³äººã€ç‰‡å°¾æ›²)	Yoga Lin
+1	à¸„à¸´à¸”(à¹à¸•à¹ˆà¹„à¸¡à¹ˆ)à¸–à¸¶à¸‡ (Same Page?)	Tilly Birds
+2	à¸§à¸²à¸¬à¹€à¸à¸¢à¸•à¸·à¹‰à¸™	GUNGUN
+3	à¸™à¸´à¹‚à¸„à¸•à¸´à¸™	Mirrr
+4	à¸à¸™à¸•à¸à¹„à¸«à¸¡	Three Man Down
+5	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+6	à¸¥à¸‡à¹ƒà¸ˆ	BOWKYLION
+7	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+8	à¹ƒà¸à¸¥à¹‰	Scrubb
+9	à¸«à¸£à¸·à¸­à¸‰à¸±à¸™à¸„à¸´à¸”à¹„à¸›à¹€à¸­à¸‡	Zommarie
+10	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+11	Blueberry Faygo	Lil Mosey
+12	à¸„à¸±à¹ˆà¸™à¸à¸¹ - à¹€à¸žà¸¥à¸‡à¸›à¸£à¸°à¸à¸­à¸šà¸‹à¸µà¸£à¸µà¸ªà¹Œ à¹€à¸žà¸£à¸²à¸°à¹€à¸£à¸²à¸„à¸¹à¹ˆà¸à¸±à¸™	à¹„à¸šà¸£à¹Œà¸— à¸§à¸Šà¸´à¸£à¸§à¸´à¸Šà¸à¹Œ
+13	à¸„à¸´à¸”à¸–à¸¶à¸‡à¹à¸•à¹ˆ	BOWKYLION
+14	Best Part (feat. Daniel Caesar)	H.E.R., Daniel Caesar
+15	à¸„à¸™à¹€à¸£à¸²à¸ˆà¸°à¹à¸­à¸šà¸£à¸±à¸à¹ƒà¸„à¸£à¸ªà¸±à¸à¸„à¸™à¹„à¸”à¹‰à¸™à¸²à¸™à¹à¸„à¹ˆà¹„à¸«à¸™	Rooftop, AUTTA
+16	à¸•à¸à¸¥à¸‡à¸‰à¸±à¸™à¸„à¸´à¸”à¹„à¸›à¹€à¸­à¸‡à¹ƒà¸Šà¹ˆà¹„à¸«à¸¡ - à¹€à¸žà¸¥à¸‡à¸›à¸£à¸°à¸à¸­à¸šà¸‹à¸µà¸£à¸µà¸ªà¹Œ à¹€à¸žà¸£à¸²à¸°à¹€à¸£à¸²à¸„à¸¹à¹ˆà¸à¸±à¸™	à¹„à¸šà¸£à¹Œà¸— à¸§à¸Šà¸´à¸£à¸§à¸´à¸Šà¸à¹Œ
+17	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+18	à¸à¸­à¸”à¹ƒà¸™à¹ƒà¸ˆ	Billkin, JAYLERR
+19	à¸”à¸µà¹Šà¸”à¸µ (UNEXPECTED)	JAYLERR, PARIS
+20	à¹à¸­à¸šà¸”à¸µ (How to live without you)	Stamp
+21	good guys	LANY
+22	à¸—à¸¸à¸à¸­à¸¢à¹ˆà¸²à¸‡	Scrubb
+23	à¹€à¸¥à¸·à¸­à¸à¸„à¸™à¸—à¸µà¹ˆà¹€à¸‚à¸²à¸£à¸±à¸à¹€à¸£à¸²	Three Man Down
+24	Intentions (feat. Quavo)	Justin Bieber, Quavo
+25	à¸ à¸²à¸§à¸™à¸²	MEYOU
+26	Daechwita	Agust D
+27	à¸£à¸²à¸‡à¸§à¸±à¸¥à¸›à¸¥à¸­à¸šà¹ƒà¸ˆ	Zommarie, Lazyloxy
+28	à¹€à¸¡à¸©à¸² (MAYSA) feat. BLACKSHEEP	fellow fellow
+29	à¸–à¹‰à¸²à¸‰à¸±à¸™à¹€à¸›à¹‡à¸™à¹€à¸‚à¸²	Indigo
+30	A Rocket to the Moon	Gavin D
+31	à¸‚à¹‰à¸²à¸‡à¹€à¸”à¸µà¸¢à¸§	Chart Suchart
+32	à¸£à¸±à¸à¹„à¸”à¹‰à¸›à¹ˆà¸²à¸§	Gavin D, PUI, VARINZ, Nonny9, Z TRIP, MITEENNN
+33	à¸«à¸§à¸‡ (You're Mine)	Earth Patravee
+34	à¹‚à¸¥à¸à¸­à¸µà¸à¹ƒà¸š	Zommarie, Oat Pramote
+35	à¹€à¸ˆà¹‡à¸šà¸ˆà¸™à¸žà¸­	Wanyai
+36	à¸—à¸´à¹‰à¸‡à¹à¸•à¹ˆà¹€à¸à¹‡à¸š - à¹€à¸žà¸¥à¸‡à¸›à¸£à¸°à¸à¸­à¸šà¸ à¸²à¸žà¸¢à¸™à¸•à¸£à¹Œ à¸®à¸²à¸§à¸—à¸¹à¸—à¸´à¹‰à¸‡..à¸—à¸´à¹‰à¸‡à¸­à¸¢à¹ˆà¸²à¸‡à¹„à¸£ à¹„à¸¡à¹ˆà¹ƒà¸«à¹‰à¹€à¸«à¸¥à¸·à¸­à¹€à¸˜à¸­	The Toys
+37	à¸¥à¸·à¸¡à¸§à¹ˆà¸²à¸•à¹‰à¸­à¸‡à¸¥à¸·à¸¡ (Forgot to forget)	Getsunova
+38	Be Kind (with Halsey)	Marshmello, Halsey
+39	Psycho	Red Velvet
+40	à¹à¸„à¹ˆà¸™à¸µà¹‰...à¸žà¸­	The Parkinson
+41	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+42	à¸«à¸±à¸§à¸«à¸´à¸™	Wanyai
+43	Punch	NCT 127
+44	à¸™à¸µà¹ˆà¸‰à¸±à¸™à¹€à¸­à¸‡ feat. KOB FLAT BOY	Lipta, KOB FLAT BOY
+45	Toosie Slide	Drake
+46	à¸„à¸³à¸•à¸­à¸š	Safeplanet
+47	à¸žà¸­à¹€à¸–à¸­à¸°	MEAN
+48	Supalonely	BENEE, Gus Dapperton
+49	Say So	Doja Cat
+50	Don't Start Now	Dua Lipa
+1	Spacejump	BEGE
+2	Her Mevsim YazÄ±m	Zeynep BastÄ±k
+3	Bi Sonraki HayatÄ±mda Gel	Murda, Ezhel
+4	Unutulacak DÃ¼nler	Gazapizm
+5	Darbe	Emir Can Ä°ÄŸrek, Patron
+6	ALEV ALEV	Zen-G, Ati242
+7	Roses - Imanbek Remix	SAINt JHN, Imanbek
+8	SaÄŸÄ± Solu Kes	Gazapizm
+9	kan sahibi	Contra
+10	Sar Bu Åžehri (Akustik)	Canozan
+11	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+12	GÃ¶rÃ¼nce DÃ¼nyamÄ±n YÄ±kÄ±ldÄ±ÄŸÄ±nÄ±	ÅžanÄ±ÅŸer
+13	Daha Mutlu Olamam	mor ve Ã¶tesi
+14	KazÄ±lÄ± Kuyum	YÃ¼zyÃ¼zeyken KonuÅŸuruz
+15	Djadja	Aya Nakamura
+16	UslanmÄ±yor Bu	Zeynep BastÄ±k
+17	YaÄŸmurlar	AnÄ±l PiyancÄ±, Perdenin ArdÄ±ndakiler
+18	BÄ±rakma Kendini	Kaan BoÅŸnak
+19	Leila	Reynmen
+20	Boss Bitch	Doja Cat
+21	Kalmam	Ebru YaÅŸar
+22	AYA	Murda, Ezhel
+23	BÃ¼tÃ¼n Istanbul Biliyo	Ä°kiye On Kala
+24	SÄ±kÄ± Dur	Ben Fero, AnÄ±l PiyancÄ±
+25	Ben De Yoluma Giderim	Sezen Aksu
+26	Mert KIYAK - Gel	Mert Kiyak, Ã‡aÄŸrÄ± Kaymak
+27	Dance Monkey	Tones And I
+28	El-Ã‚lem	TuÄŸÃ§e Kandemir
+29	PeriÅŸanÄ±m	Edis
+30	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+31	EskimiÅŸ Senelere	Aspova
+32	Neyin Nesi	Dolu Kadehi Ters Tut
+33	Dinle Beni Bi'	YÃ¼zyÃ¼zeyken KonuÅŸuruz
+34	BÃ¶yle Sever	Kahraman Deniz
+35	Tuzaklara DÃ¼ÅŸtÃ¼m	Kahraman Deniz
+36	The Box	Roddy Ricch
+37	Teni Tenime	Sena Åžener
+38	Yalan	Aleyna Tilki
+39	Nalan	Emir Can Ä°ÄŸrek
+40	AcÄ±nÄ±n Ä°lacÄ±	Adamlar
+41	Blinding Lights	The Weeknd
+42	Beni Kendinden Kurtar	Perdenin ArdÄ±ndakiler
+43	Hokkabazlar	Heijan, Muti
+44	Ä°lerle	BEGE
+45	Ã–lsem Yeridir	YÃ¼zyÃ¼zeyken KonuÅŸuruz
+46	GÃ¼neÈ™	Murda, Zeynep BastÄ±k, Idaly
+47	PahalÄ±	Murda
+48	Falling	Trevor Daniel
+49	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+50	GÃ¼zel KÄ±zlar Patron Dinler	Patron
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+3	Blinding Lights	The Weeknd
+4	Toosie Slide	Drake
+5	Roses - Imanbek Remix	SAINt JHN, Imanbek
+6	Rover (feat. DTG)	S1mba, DTG
+7	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+8	Houdini (feat. Swarmz & Tion Wayne)	KSI, Tion Wayne, Swarmz
+9	Blueberry Faygo	Lil Mosey
+10	Dinner Guest (feat. MoStack)	AJ Tracey, MoStack
+11	Break My Heart	Dua Lipa
+12	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+13	Rain	Aitch, AJ Tracey, Tay Keith
+14	Killa Killa (feat. Aiyana Lee)	KSI, Aiyana-Lee
+15	Flowers (feat. Jaykae)	Nathan Dawe, Jaykae
+16	Lonely	Joel Corry
+17	Cap (feat. Offset)	KSI, Offset
+18	Watermelon Sugar	Harry Styles
+19	Don't Start Now	Dua Lipa
+20	Dance Monkey	Tones And I
+21	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+22	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+23	GOOBA	6ix9ine
+24	The Box	Roddy Ricch
+25	Breaking Me	Topic, A7S
+26	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+27	Someone You Loved	Lewis Capaldi
+28	Bad Lil Vibe (feat. Jeremih)	KSI, Jeremih
+29	Supalonely	BENEE, Gus Dapperton
+30	Millions	KSI
+31	Donâ€™t Need Love (with GRACEY)	220 KID, GRACEY
+32	Say So	Doja Cat
+33	What You Been On	KSI
+34	Domain	KSI
+35	Adore You	Harry Styles
+36	If the World Was Ending - feat. Julia Michaels	JP Saxe, Julia Michaels
+37	Party Girl	StaySolidRocky
+38	Physical	Dua Lipa
+39	Before You Go	Lewis Capaldi
+40	Down Like That (feat. Rick Ross, Lil Baby & S-X)	KSI, S-X, Rick Ross, Lil Baby
+41	Tequila - Jax Jones & Martin Solveig Present Europa	Jax Jones, Martin Solveig, RAYE, Europa
+42	goosebumps	Travis Scott
+43	Undefeated	KSI
+44	Intentions (feat. Quavo)	Justin Bieber, Quavo
+45	This City	Sam Fischer
+46	Life Is Good (feat. Drake)	Future, Drake
+47	Break Up Song	Little Mix
+48	Boss Bitch	Doja Cat
+49	In Your Eyes	The Weeknd
+50	Poppin (feat. Lil Pump & Smokepurpp)	KSI, Lil Pump, Smokepurpp
+1	ROCKSTAR (feat. Roddy Ricch)	DaBaby, Roddy Ricch
+2	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+3	THE SCOTTS	THE SCOTTS, Travis Scott, Kid Cudi
+4	Blinding Lights	The Weeknd
+5	Blueberry Faygo	Lil Mosey
+6	Toosie Slide	Drake
+7	The Box	Roddy Ricch
+8	Party Girl	StaySolidRocky
+9	Roses - Imanbek Remix	SAINt JHN, Imanbek
+10	Savage Remix (feat. BeyoncÃ©)	Megan Thee Stallion, BeyoncÃ©
+11	WHATS POPPIN	Jack Harlow
+12	COOLER THAN A BITCH (feat. Roddy Ricch)	Gunna, Roddy Ricch
+13	GOOBA	6ix9ine
+14	DOLLAZ ON MY HEAD (feat. Young Thug)	Gunna, Young Thug
+15	After Party	Don Toliver
+16	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+17	Life Is Good (feat. Drake)	Future, Drake
+18	Walk Em Down (feat. Roddy Ricch)	NLE Choppa, Roddy Ricch
+19	Righteous	Juice WRLD
+20	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+21	Sunday Best	Surfaces
+22	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+23	Flex (feat. Juice WRLD)	Polo G, Juice WRLD
+24	Circles	Post Malone
+25	Intentions (feat. Quavo)	Justin Bieber, Quavo
+26	Don't Start Now	Dua Lipa
+27	In Your Eyes	The Weeknd
+28	Watermelon Sugar	Harry Styles
+29	Chicago Freestyle (feat. Giveon)	Drake, Giveon
+30	WUNNA	Gunna
+31	ROXANNE	Arizona Zervas
+32	Supalonely	BENEE, Gus Dapperton
+33	Say So	Doja Cat
+34	Falling	Trevor Daniel
+35	goosebumps	Travis Scott
+36	Be Kind (with Halsey)	Marshmello, Halsey
+37	Sunflower - Spider-Man: Into the Spider-Verse	Post Malone, Swae Lee
+38	HIGHEST IN THE ROOM	Travis Scott
+39	Break My Heart	Dua Lipa
+40	Adore You	Harry Styles
+41	SICKO MODE	Travis Scott
+42	TOP FLOOR (feat. Travis Scott)	Gunna, Travis Scott
+43	Turks (with Gunna & ft. Travis Scott)	NAV, Gunna, Travis Scott
+44	Play Date	Melanie Martinez
+45	Ballin' (with Roddy Ricch)	Mustard, Roddy Ricch
+46	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+47	Solitaires (feat. Travis Scott)	Future, Travis Scott
+48	hot girl bummer	blackbear
+49	High Fashion (feat. Mustard)	Roddy Ricch, Mustard
+50	Myron	Lil Uzi Vert
+1	Favorito	Camilo
+2	PORFA	Feid, Justin Quiles
+3	Yo Perreo Sola	Bad Bunny
+4	Rojo	J Balvin
+5	ElegÃ­ (feat. DÃ­melo Flow)	Rauw Alejandro, Dalex, Lenny TavÃ¡rez, DÃ­melo Flow
+6	Colocao	Nicki Nicole
+7	Safaera	Bad Bunny, Jowell & Randy, Nengo Flow
+8	Tattoo	Rauw Alejandro
+9	La Jeepeta - Remix	Nio Garcia, Anuel AA, Myke Towers, Brray, Juanka
+10	RelaciÃ³n	Sech
+11	Por Primera Vez	Camilo, Evaluna Montaner
+12	Tusa	KAROL G, Nicki Minaj
+13	Inolvidable	Ovy On The Drums, BeÃ©le
+14	C.R.O: Bzrp Music Session, Vol. 29	Bizarrap, C.R.O
+15	Diosa	Myke Towers
+16	Hola - Remix	Dalex, Lenny TavÃ¡rez, Chencho Corleone, Juhn, DÃ­melo Flow
+17	Locura	Cali Y El Dandee, Sebastian Yatra
+18	Morado	J Balvin
+19	Amarillo	J Balvin
+20	Fantasias	Rauw Alejandro, Farruko
+21	La DifÃ­cil	Bad Bunny
+22	Si Me Dices Que SÃ­	Reik, Farruko, Camilo
+23	El Efecto - Remix	Rauw Alejandro, Chencho Corleone, KEVVO, Bryant Myers, Lyanno, Dalex
+24	Dance Monkey	Tones And I
+25	Sigues Con El	DÃ­melo Flow, Arcangel, Sech
+26	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+27	Tak Tiki Tak	Harry Nach
+28	Tutu	Camilo, Pedro CapÃ³
+29	Ignorantes	Bad Bunny, Sech
+30	MuÃ©velo	Nicky Jam, Daddy Yankee
+31	Loco	BeÃ©le
+32	Follow	KAROL G, Anuel AA
+33	Bellaquita - Remix	Dalex, Lenny TavÃ¡rez, Anitta, Natti Natasha, Farruko, Justin Quiles
+34	Loco - Remix	Farruko, BeÃ©le, Natti Natasha, Manuel Turizo
+35	Ya No MÃ¡s	Fer Palacio, DJ Alex, Santiago Saez
+36	Roses - Imanbek Remix	SAINt JHN, Imanbek
+37	La Pared 360	Lenny TavÃ¡rez, Justin Quiles
+38	Mejor	Dalex, Sech
+39	Bajo La Mesa	Morat, Sebastian Yatra
+40	Keii	Anuel AA
+41	La Cama - Remix	Lunay, Myke Towers, Ozuna, Chencho Corleone, Rauw Alejandro
+42	Don't Start Now	Dua Lipa
+43	BAD CON NICKY	Bad Bunny, Nicky Jam
+44	ConfÃ­a	Sech, Daddy Yankee
+45	Azul	J Balvin
+46	La DifÃ­cil	Camilo
+47	TBT	Sebastian Yatra, Rauw Alejandro, Manuel Turizo
+48	BYE ME FUI	Bad Bunny
+49	High	Maria Becerra
+50	Blinding Lights	The Weeknd
+1	em bá» hÃºt thuá»‘c chÆ°a?	Bich Phuong, traitimtrongvang
+2	Play Date	Melanie Martinez
+3	Rain On Me (with Ariana Grande)	Lady Gaga, Ariana Grande
+4	Daechwita	Agust D
+5	Ke Cap Gap Ba Gia (feat. BINZ)	Hoang Thuy Linh, Binz
+6	Stuck with U (with Justin Bieber)	Ariana Grande, Justin Bieber
+7	eight(Prod.&Feat. SUGA of BTS)	IU, SUGA
+8	death bed (coffee for your head) (feat. beabadoobee)	Powfu, beabadoobee
+9	Mascara	Chillies
+10	VÃ¹ng KÃ½ á»¨c	Chillies
+11	Lá»‘i Nhá»	Äen, PhÆ°Æ¡ng Anh ÄÃ o
+12	Intentions (feat. Quavo)	Justin Bieber, Quavo
+13	What do you think?	Agust D
+14	BÃ i NÃ y Chill Pháº¿t	Äen, Min
+15	People	Agust D
+16	Strange	Agust D, RM
+17	Be Kind (with Halsey)	Marshmello, Halsey
+18	Break My Heart	Dua Lipa
+19	28	Agust D, NiiHWA
+20	Thanh Xuan	Da LAB
+21	SeÃ±orita	Shawn Mendes, Camila Cabello
+22	Memories	Maroon 5
+23	Moonlight	Agust D
+24	ily (i love you baby) (feat. Emilee)	Surf Mesa, Emilee
+25	Burn It	Agust D, MAX
+26	CÃ³ Em Äá»i Bá»—ng Vui	Chillies
+27	Dear my friend (feat. Kim Jong Wan of NELL)	Agust D, Kim Jong Wan
+28	Say So (feat. Nicki Minaj)	Doja Cat, Nicki Minaj
+29	Someone You Loved	Lewis Capaldi
+30	Don't Start Now	Dua Lipa
+31	Honsool	Agust D
+32	Duyen Am	Hoang Thuy Linh
+33	Dance Monkey	Tones And I
+34	VÃ  Tháº¿ LÃ  Háº¿t	Chillies
+35	Cáº§n GÃ¬ HÆ¡n	Tien Tien, JustaTee
+36	Interlude : Set me free	Agust D
+37	HÃ£y Trao Cho Anh	SÆ¡n TÃ¹ng M-TP, Snoop Dogg
+38	7 rings	Ariana Grande
+39	Can We Kiss Forever?	Kina, Adriana Proenza
+40	Let Me Down Slowly	Alec Benjamin
+41	bad guy	Billie Eilish
+42	comethru (bonus track)	Jeremy Zucker
+43	Láº¦N CUá»I (Ä‘i bÃªn em xÃ³t xa ngÆ°á»i Æ¡i)	Ngá»t
+44	Em Day Chang Phai Thuy Kieu	Hoang Thuy Linh
+45	Say So	Doja Cat
+46	ÄÃƒ Tá»ªNG LÃ€	VÅ©.
+47	MÆ°á»£n RÆ°á»£u Tá» TÃ¬nh	BigDaddy, Emily
+48	NgÃ y Táº­n Tháº¿	TÃ³c TiÃªn, Da LAB, Touliver
+49	Äi Äu ÄÆ°a Äi	Bich Phuong
+50	Blinding Lights	The Weeknd
